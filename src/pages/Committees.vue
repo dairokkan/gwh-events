@@ -8,7 +8,7 @@ useHead({
 
 <template>
     <main>
-        <a href="/committees/unsc">
+        <RouterLink to="/committees/unsc">
             <div class="commlink bg-unsc">
                 <div class="detail">
                     <h1 class="commname">
@@ -20,8 +20,8 @@ useHead({
                     <svg xmlns="http://www.w3.org/2000/svg" height="45" viewBox="0 -960 960 960" width="45"><path class="right-arrow" d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg>
                 </div>
             </div>
-        </a>
-        <a href="/committees/unhrc">
+        </RouterLink>
+        <RouterLink to="/committees/unhrc">
             <div class="commlink bg-unhrc">
                 <div class="detail">
                     <h1 class="commname">
@@ -33,8 +33,8 @@ useHead({
                     <svg xmlns="http://www.w3.org/2000/svg" height="45" viewBox="0 -960 960 960" width="45"><path class="right-arrow" d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg>
                 </div>
             </div>
-        </a>
-        <a href="/committees/nato">
+        </RouterLink>
+        <RouterLink to="/committees/nato">
             <div class="commlink bg-nato">
                 <div class="detail">
                     <h1 class="commname">
@@ -46,8 +46,8 @@ useHead({
                     <svg xmlns="http://www.w3.org/2000/svg" height="45" viewBox="0 -960 960 960" width="45"><path class="right-arrow" d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg>
                 </div>
             </div>
-        </a>
-        <a href="/committees/disec">
+        </RouterLink>
+        <RouterLink to="/committees/disec">
             <div class="commlink bg-disec">
                 <div class="detail">
                     <h1 class="commname">
@@ -59,8 +59,8 @@ useHead({
                     <svg xmlns="http://www.w3.org/2000/svg" height="45" viewBox="0 -960 960 960" width="45"><path class="right-arrow" d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg>
                 </div>
             </div>
-        </a>
-        <a href="/committees/unep">
+        </RouterLink>
+        <RouterLink to="/committees/unep">
             <div class="commlink bg-unep">
                 <div class="detail">
                     <h1 class="commname">
@@ -72,8 +72,8 @@ useHead({
                     <svg xmlns="http://www.w3.org/2000/svg" height="45" viewBox="0 -960 960 960" width="45"><path class="right-arrow" d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg>
                 </div>
             </div>
-        </a>
-        <a href="/committees/sochum">
+        </RouterLink>
+        <RouterLink to="/committees/sochum">
             <div class="commlink bg-sochum">
                 <div class="detail">
                     <h1 class="commname">
@@ -85,8 +85,8 @@ useHead({
                     <svg xmlns="http://www.w3.org/2000/svg" height="45" viewBox="0 -960 960 960" width="45"><path class="right-arrow" d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg>
                 </div>
             </div>
-        </a>
-        <a href="/committees/ccc">
+        </RouterLink>
+        <RouterLink to="/committees/ccc">
             <div class="commlink bg-ccc">
                 <div class="detail">
                     <h1 class="commname">
@@ -98,8 +98,8 @@ useHead({
                     <svg xmlns="http://www.w3.org/2000/svg" height="45" viewBox="0 -960 960 960" width="45"><path class="right-arrow" d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg>
                 </div>
             </div>
-        </a>
-        <a href="/committees/ipc">
+        </RouterLink>
+        <RouterLink to="/committees/ipc">
             <div class="commlink bg-ipc">
                 <div class="detail">
                     <h1 class="commname">
@@ -111,7 +111,7 @@ useHead({
                     <svg xmlns="http://www.w3.org/2000/svg" height="45" viewBox="0 -960 960 960" width="45"><path class="right-arrow" d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg>
                 </div>
             </div>
-        </a>
+        </RouterLink>
     </main>
 </template>
 
