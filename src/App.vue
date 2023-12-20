@@ -19,7 +19,7 @@
 </template>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Rubik?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
 body {
     font-family: 'Raleway', sans-serif;
