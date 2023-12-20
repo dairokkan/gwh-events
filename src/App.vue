@@ -9,7 +9,7 @@
         </div>
         <ul class="links">
             <li><RouterLink to="/">Home</RouterLink></li>
-            <li><RouterLink to="/team">Team</RouterLink></li>
+            <!--<li><RouterLink to="/team">Team</RouterLink></li>-->
             <li><RouterLink to="/committees">Committees</RouterLink></li>
             <li><RouterLink to="/resources">Resources</RouterLink></li>
         </ul>
