@@ -2,23 +2,23 @@
 import { useHead } from '@unhead/vue';
 
 const props = defineProps({
-    committee: String,
+    name: String,
+    id: String,
     agenda: String,
-    bgpath: String,
     chair: String,
     vicechair: String,
     moderator: String
 })
 
 useHead({
-    title: props.committee + " | GWH JMUN 2024"
+    title: props.name + " | GWH JMUN 2024"
 })
 </script>
 
 <template>
     <main>
-        <div class="mainimg" :class="props.bgpath">
-            <h1 class="commname">{{ props.committee }}</h1>
+        <div class="mainimg" :class="'bg-'+props.id">
+            <h1 class="commname">{{ props.name }}</h1>
             <div class="agenda">Agenda: {{ props.agenda }}</div>
         </div>
         <h1 class="eb-title">Executive Board</h1>
@@ -80,6 +80,10 @@ h1.eb-title {
     justify-content: space-evenly;
     margin: 0 15%;
     text-align: center;
+}
+
+.mem {
+    width: 20%;
 }
 
 h2.name {

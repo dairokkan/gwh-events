@@ -1,0 +1,66 @@
+{"list":[
+    {
+        "name": "United Nations Security Council (UNSC)",
+        "id": "unsc",
+        "agenda": "Discussing the current state of affairs of the Israel-Hamas war",
+        "chair": "Harihar Prasad",
+        "vicechair": "Arya Poddar",
+        "moderator": "Nitesh Kothari"
+    },
+    {
+        "name": "United Nations Human Rights Council (UNHRC)",
+        "id": "unhrc",
+        "agenda": "Addressing the human rights crisis in Myanmar after the military coup of 2021",
+        "chair": "Veena Karthik",
+        "vicechair": "Anusha Baghla",
+        "moderator": "Anita Bhat"
+    },
+    {
+        "name": "North Atlantic Treaty Organization (NATO)",
+        "id": "nato",
+        "agenda": "Addressing Russian military activity in the Baltic states and Eastern Europe",
+        "chair": "Mukul N Kumar",
+        "vicechair": "Garvit Shah",
+        "moderator": "Vishruth Jasti"
+    },
+    {
+        "name": "Disarmament and International Security Council (DISEC)",
+        "id": "disec",
+        "agenda": "Discussing the state of nuclear proliferation in the Middle East concerning the presence of private military companies",
+        "chair": "Samhita Madakshira",
+        "vicechair": "Ashmit Singh",
+        "moderator": "Ishani Srinivas"
+    },
+    {
+        "name": "United Nations Environmental Programme (UNEP)",
+        "id": "unep",
+        "agenda": "Management of UN environmental goals in conflict-ridden areas with special reference to mercury, lead and nuclear waste",
+        "chair": "Riana Kapoor",
+        "vicechair": "Suhani Singh",
+        "moderator": "Prishaa Dharmarha"
+    },
+    {
+        "name": "Social, Humanitarian and Cultural Committee (SOCHUM)",
+        "id": "sochum",
+        "agenda": "Addressing the situation pertaining to the use of illegal human labour with special emphasis on Asia-Pacific-based and South Asian nations",
+        "chair": "Riti Prabhu",
+        "vicechair": "Ayaan Gupta",
+        "moderator": "Sparsh Bhowmick"
+    },
+    {
+        "name": "Continuous Crisis Committee (CCC)",
+        "id": "ccc",
+        "agenda": "Beginning of operation \"Rolling Thunder\" [Freeze date - March 8, 1965]",
+        "chair": "Ricardo Kesh",
+        "vicechair": "Daksh Aggarwal",
+        "moderator": "Anish Vivek"
+    },
+    {
+        "name": "International Press Corps",
+        "id": "ipc",
+        "agenda": "To report on contemporary geopolitics while representing different viewpoints",
+        "chair": "Aarush Vyas",
+        "vicechair": "Anya Sapru",
+        "moderator": "Aarav Kejiriwal"
+    }
+]}

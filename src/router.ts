@@ -1,17 +1,30 @@
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 import Index from './pages/Index.vue'
 //import Team from './pages/Team.vue'
 import Committees from "./pages/Committees.vue";
 import Resources from "./pages/Resources.vue";
 import CommitteePage from "./pages/CommitteePage.vue"
+import * as comms from './committees.json'
+
+const routes:RouteRecordRaw[] = [
+    {path: '/', component: Index},
+    //{path: '/team', component: Team},
+    {path: '/committees', component: Committees},
+    {path: '/resources', component: Resources},
+]
+
+comms.list.forEach(element => {
+    routes.push({path: `/committees/${element.id}`, component: CommitteePage, props: element})
+});
 
 const router = createRouter({
     history: createWebHistory(),
-    routes: [
+    routes: routes/*[
         {path: '/', component: Index},
         //{path: '/team', component: Team},
         {path: '/committees', component: Committees},
         {path: '/resources', component: Resources},
+
         {path: '/committees/unsc', component: CommitteePage, props: {
             committee: "United Nations Security Council (UNSC)",
             agenda: "Discussing the current state of affairs of the Israel-Hamas war",
@@ -76,7 +89,7 @@ const router = createRouter({
             vicechair: "Anya Sapru",
             moderator: "Aarav Kejiriwal"
         }},
-    ]
+    ]*/
 })
 
 export default router
