@@ -11,7 +11,7 @@ const props = defineProps({
 })
 
 useHead({
-    title: props.name + " | GWH JMUN 2024"
+    title: props.id?.toUpperCase() + " | GWH JMUN 2024"
 })
 </script>
 
