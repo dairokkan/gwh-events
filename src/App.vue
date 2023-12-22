@@ -82,12 +82,12 @@ header.navbar {
 }
 
 .mobile-menu {
-    position: absolute;
+    position: fixed;
     top:0;
     left:0;
     background-color: #1a1a1a;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
 }
 
 ul.links {
