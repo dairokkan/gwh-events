@@ -2,7 +2,7 @@
     {
         "name": "United Nations Security Council (UNSC)",
         "id": "unsc",
-        "agenda": "Discussing the current state of affairs of the Israel-Hamas war",
+        "agenda": "Discussing the current state of affairs of the Israel-Hamas War",
         "chair": "Harihar Prasad",
         "vicechair": "Arya Poddar",
         "moderator": "Nitesh Kothari"
@@ -18,7 +18,7 @@
     {
         "name": "North Atlantic Treaty Organization (NATO)",
         "id": "nato",
-        "agenda": "Addressing Russian military activity in the Baltic states and Eastern Europe",
+        "agenda": "Addressing Russian activity in Ukraine and its wider impact on Europe",
         "chair": "Mukul N Kumar",
         "vicechair": "Garvit Shah",
         "moderator": "Vishruth Jasti"
@@ -26,7 +26,7 @@
     {
         "name": "Disarmament and International Security Council (DISEC)",
         "id": "disec",
-        "agenda": "Discussing the state of nuclear proliferation in the Middle East concerning the presence of private military companies",
+        "agenda": "Discussing the proliferation of arms in the Middle East with special reference to the involvement of non-state actors",
         "chair": "Samhita Madakshira",
         "vicechair": "Ashmit Singh",
         "moderator": "Ishani Srinivas"
@@ -34,7 +34,7 @@
     {
         "name": "United Nations Environmental Programme (UNEP)",
         "id": "unep",
-        "agenda": "Management of UN environmental goals in conflict-ridden areas with special reference to mercury, lead and nuclear waste",
+        "agenda": "Discussing avenues to address marine pollution in South-East Asia",
         "chair": "Riana Kapoor",
         "vicechair": "Suhani Singh",
         "moderator": "Prishaa Dharmarha"
@@ -42,7 +42,7 @@
     {
         "name": "Social, Humanitarian and Cultural Committee (SOCHUM)",
         "id": "sochum",
-        "agenda": "Addressing the situation pertaining to the use of illegal human labour with special emphasis on Asia-Pacific-based and South Asian nations",
+        "agenda": "Addressing the situation pertaining to the use of illegal human labour with special emphasis on Asia-Pacific-based and South Asian Nations",
         "chair": "Riti Prabhu",
         "vicechair": "Ayaan Gupta",
         "moderator": "Sparsh Bhowmick"
