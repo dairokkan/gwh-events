@@ -26,6 +26,7 @@ watch(
                 <!--<li><RouterLink to="/team">Team</RouterLink></li>-->
                 <li><RouterLink to="/committees">Committees</RouterLink></li>
                 <li><RouterLink to="/resources">Resources</RouterLink></li>
+                <li></li>
             </ul>
         </div>
         <div class="mobile-nav" v-else>
@@ -43,7 +44,18 @@ watch(
             </ul>
         </div>
     <RouterView/>
-
+    <footer>
+        <img src="./assets/gwhmun_logo.png" class="footer-logo">
+        <div class="footer-info">
+            <h3 class="subhead">Location</h3>
+            <div>Greenwood High School Sarjapur</div>
+        </div>
+        <div class="footer-info">
+            <h3 class="subhead">Contact</h3>
+            <div>Secretary General - <a href="mailto:harihar052651@greenwoodhigh.edu.in">harihar052651@greenwoodhigh.edu.in</a></div>
+            <div>Director General - <a href="mailto:aarush052103@greenwoodhigh.edu.in">aarush052103@greenwoodhigh.edu.in</a></div>
+        </div>
+    </footer>
 </template>
 
 <style>
@@ -125,5 +137,27 @@ button.nav-show, button.nav-hide {
 
 button.nav-show path, button.nav-hide path {
     fill: #fff;
+}
+
+footer {
+    border-top: 2px solid #3b3b3b;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+img.footer-logo {
+    height: 100px;
+    width: auto;
+}
+
+.footer-info {
+    margin: 10px;
+    text-align: center;
+}
+
+.footer-info > h3 {
+    margin: 5px;
 }
 </style>
