@@ -48,10 +48,10 @@ watch(
         <img src="./assets/gwhmun_logo.png" class="footer-logo">
         <div class="footer-info">
             <h3 class="subhead">Location</h3>
-            <div>Greenwood High School Sarjapur</div>
+            <div><a href="https://www.google.com/maps/place/Greenwood+High+-+Sarjapur/@12.8995914,77.7464884,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae0d59425e7257:0xb036140cfb4656dd!8m2!3d12.8995862!4d77.7490633!16s%2Fm%2F0wbm4qb?entry=tts&shorturl=1">Greenwood High School Sarjapur</a></div>
         </div>
         <div class="footer-info">
-            <h3 class="subhead">Contact</h3>
+            <h3 class="subhead"> Contact</h3>
             <div>Secretary General - <a href="mailto:harihar052651@greenwoodhigh.edu.in">harihar052651@greenwoodhigh.edu.in</a></div>
             <div>Director General - <a href="mailto:aarush052103@greenwoodhigh.edu.in">aarush052103@greenwoodhigh.edu.in</a></div>
         </div>
@@ -159,5 +159,10 @@ img.footer-logo {
 
 .footer-info > h3 {
     margin: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #b4d0d4;
 }
 </style>

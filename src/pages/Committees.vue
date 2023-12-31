@@ -39,20 +39,57 @@ main {
     margin-bottom: 15px;
 }
 
+@media(min-width: 500px) {
+    .commlink {   
+        background-size: 100%;
+        background-position: center;
+    }
+}
+
+@media(max-width: 500px) {
+    .commlink {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
 .commlink > .detail {
     width: inherit;
     height: inherit;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+}
+
+@media(min-width: 500px) {
+    .commlink > .detail {
+        flex-direction: row;
+    }
+}
+
+@media(max-width:500px) {
+    .commlink > .detail {
+        flex-direction: column;
+    }
 }
 
 .commlink > .detail > .commname {
     margin: 0;
     padding: 25px;
     width: 150px;
-    border-right: 1px solid #5b5b5b;
+    text-align: center;
+}
+
+@media(min-width: 500px) {
+    .commlink > .detail > .commname {
+        border-right: 1px solid #5b5b5b;
+    }
+}
+
+@media(max-width: 500px) {
+    .commlink > .detail > .commname {
+        border-bottom: 1px solid #5b5b5b;
+    }
 }
 
 .commlink > .detail > .agenda {
@@ -76,49 +113,33 @@ path.right-arrow {
 
 .bg-unsc {
     background: url('../assets/unsc-img.png');
-    background-size: 100%;
-    background-position: center;
 }
 
 .bg-unhrc {
     background: url('../assets/unhrc-img.png');
-    background-size: 100%;
-    background-position: center;
 }
 
 .bg-nato {
     background: url('../assets/nato-img.png');
-    background-size: 100%;
-    background-position: center;
 }
 
 .bg-disec {
     background: url('../assets/disec-img.png');
-    background-size: 100%;
-    background-position: center;
 }
 
 .bg-unep {
     background: url('../assets/unep-img.png');
-    background-size: 100%;
-    background-position: center;
 }
 
 .bg-sochum {
     background: url('../assets/sochum-img.png');
-    background-size: 100%;
-    background-position: center;
 }
 
 .bg-ccc {
     background: url('../assets/ccc-img.png');
-    background-size: 100%;
-    background-position: bottom;
 }
 
 .bg-ipc {
     background: url('../assets/ipc-img.png');
-    background-size: 100%;
-    background-position: center;
 }
 </style>

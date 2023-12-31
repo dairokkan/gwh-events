@@ -7,9 +7,13 @@ useHead({
 </script>
 
 <template>
-
+    <main>
+        
+    </main>
 </template>
 
-<style>
-
+<style scoped>
+main {
+    padding: 10px
+}
 </style>
