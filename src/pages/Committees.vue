@@ -13,9 +13,8 @@ useHead({
             <RouterLink :to="'/committees/'+item.id">
                 <div class="commlink" :class="'bg-'+item.id">
                     <div class="detail">
-                        <h1 class="commname">
-                            {{ item.id.toUpperCase() }}
-                        </h1>
+                        <img :src="'/src/assets/committee_logos/'+item.id+'.png'" class="commlogo">
+                        <h1 class="commname">{{ item.id.toUpperCase() }}</h1>
                         <span class="agenda">
                             Agenda: {{ item.agenda }}
                         </span>    
@@ -37,20 +36,13 @@ main {
     border-radius: 25px;
     padding: 10px;
     margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-@media(min-width: 500px) {
-    .commlink {   
-        background-size: 100%;
-        background-position: center;
-    }
-}
-
-@media(max-width: 500px) {
-    .commlink {
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+.commlogo {
+    width: 100px;
 }
 
 .commlink > .detail {
@@ -74,9 +66,9 @@ main {
 }
 
 .commlink > .detail > .commname {
-    margin: 0;
     padding: 25px;
     width: 150px;
+    margin: 0;
     text-align: center;
 }
 
@@ -112,34 +104,34 @@ path.right-arrow {
 <style>
 
 .bg-unsc {
-    background: url('../assets/unsc-img.png');
+    background: url('/src/assets/bg_imgs/unsc-img.png');
 }
 
 .bg-unhrc {
-    background: url('../assets/unhrc-img.png');
+    background: url('/src/assets/bg_imgs/unhrc-img.png');
 }
 
 .bg-nato {
-    background: url('../assets/nato-img.png');
+    background: url('/src/assets/bg_imgs/nato-img.png');
 }
 
 .bg-disec {
-    background: url('../assets/disec-img.png');
+    background: url('/src/assets/bg_imgs/disec-img.png');
 }
 
 .bg-unep {
-    background: url('../assets/unep-img.png');
+    background: url('/src/assets/bg_imgs/unep-img.png');
 }
 
 .bg-sochum {
-    background: url('../assets/sochum-img.png');
+    background: url('/src/assets/bg_imgs/sochum-img.png');
 }
 
 .bg-ccc {
-    background: url('../assets/ccc-img.png');
+    background: url('/src/assets/bg_imgs/ccc-img.png');
 }
 
 .bg-ipc {
-    background: url('../assets/ipc-img.png');
+    background: url('/src/assets/bg_imgs/ipc-img.png');
 }
 </style>
