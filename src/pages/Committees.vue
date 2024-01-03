@@ -13,7 +13,7 @@ useHead({
             <RouterLink :to="'/committees/'+item.id">
                 <div class="commlink" :class="'bg-'+item.id">
                     <div class="detail">
-                        <img :src="'/src/assets/committee_logos/'+item.id+'.png'" class="commlogo">
+                        <img :src="'https://raw.githubusercontent.com/dairokkan/gwh-events/main/src/assets/committee_logos/'+item.id+'.png'" class="commlogo">
                         <h1 class="commname">{{ item.id.toUpperCase() }}</h1>
                         <span class="agenda">
                             Agenda: {{ item.agenda }}

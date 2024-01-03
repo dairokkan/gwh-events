@@ -18,7 +18,7 @@ useHead({
 <template>
     <main>
         <div class="mainimg" :class="'bg-'+props.id">
-            <img :src="'/src/assets/committee_logos/'+props.id+'.png'" class="commlogo">
+            <img :src="'https://raw.githubusercontent.com/dairokkan/gwh-events/main/src/assets/committee_logos/'+props.id+'.png'" class="commlogo">
             <h1 class="commname">{{ props.name }}</h1>
             <div class="agenda">Agenda: {{ props.agenda }}</div>
         </div>
