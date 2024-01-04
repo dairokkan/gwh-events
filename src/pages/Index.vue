@@ -1,12 +1,32 @@
-<script setup lang="ts">
-import { useHead } from '@unhead/vue';
 
-useHead({
-    title: 'GWH JMUN 2024'
-})
+
+<script>
+  import { watchEffect } from 'vue'
+  import emblaCarouselVue from 'embla-carousel-vue'
+
+  export default {
+    setup() {
+      const [emblaNode, emblaApi] = emblaCarouselVue({ loop: true })
+
+      watchEffect(() => {
+        if (emblaApi.value) {
+          console.log(emblaApi.value.slideNodes()) // Access API
+        }
+      })
+
+      return { emblaNode, emblaApi }
+    },
+  }
 </script>
 
 <template>
+<div class="embla" ref="emblaNode">
+    <div class="embla__container">
+      <div class="embla__slide">Slide 1</div>
+      <div class="embla__slide">Slide 2</div>
+      <div class="embla__slide">Slide 3</div>
+    </div>
+  </div>
     <main>
         <div class="mainimg">
             <h1 class="title">GWH JMUN 2024</h1>
@@ -16,7 +36,10 @@ useHead({
         <h1>FLOW OF EVENTS</h1>
         <h1>LETTER FROM SECGEN</h1>
         <h1>LETTER FROM DIRGEN</h1>
+
     </main>
+     
+
 </template>
 
 <style scoped>
@@ -44,4 +67,15 @@ h2.subtitle {
     font-size: 1.75em;
     margin: 5px
 }
+
+.embla {
+    overflow: hidden;
+  }
+  .embla__container {
+    display: flex;
+  }
+  .embla__slide {
+    flex: 0 0 100%;
+    min-width: 0;
+  }
 </style>
