@@ -11,6 +11,7 @@ const routes:RouteRecordRaw[] = [
     //{path: '/team', component: Team},
     {path: '/committees', component: Committees},
     {path: '/resources', component: Resources},
+    {path: '/:pathMatch(.*)*', redirect: "/",}
 ]
 
 comms.list.forEach(element => {
