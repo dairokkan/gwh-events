@@ -13,7 +13,7 @@ useHead({
             <RouterLink :to="'/committees/'+item.id">
                 <div class="commlink" :class="'bg-'+item.id">
                     <div class="detail">
-                        <img :src="'https://raw.githubusercontent.com/dairokkan/gwh-events/main/src/assets/committee_logos/'+item.id+'.png'" class="commlogo">
+                        <img :src="`/assets/committee_logos/${item.id}.png`" class="commlogo">
                         <h1 class="commname">{{ item.id.toUpperCase() }}</h1>
                         <span class="agenda">
                             Agenda: {{ item.agenda }}
@@ -104,34 +104,34 @@ path.right-arrow {
 <style>
 
 .bg-unsc {
-    background: url('/src/assets/bg_imgs/unsc-img.png');
+    background: url('/assets/bg_imgs/unsc-img.png');
 }
 
 .bg-unhrc {
-    background: url('/src/assets/bg_imgs/unhrc-img.png');
+    background: url('/assets/bg_imgs/unhrc-img.png');
 }
 
 .bg-nato {
-    background: url('/src/assets/bg_imgs/nato-img.png');
+    background: url('/assets/bg_imgs/nato-img.png');
 }
 
 .bg-disec {
-    background: url('/src/assets/bg_imgs/disec-img.png');
+    background: url('/assets/bg_imgs/disec-img.png');
 }
 
 .bg-unep {
-    background: url('/src/assets/bg_imgs/unep-img.png');
+    background: url('/assets/bg_imgs/unep-img.png');
 }
 
 .bg-sochum {
-    background: url('/src/assets/bg_imgs/sochum-img.png');
+    background: url('/assets/bg_imgs/sochum-img.png');
 }
 
 .bg-ccc {
-    background: url('/src/assets/bg_imgs/ccc-img.png');
+    background: url('/assets/bg_imgs/ccc-img.png');
 }
 
 .bg-ipc {
-    background: url('/src/assets/bg_imgs/ipc-img.png');
+    background: url('/assets/bg_imgs/ipc-img.png');
 }
 </style>
