@@ -1,30 +1,38 @@
-
-
 <script>
-  import { watchEffect } from 'vue'
   import emblaCarouselVue from 'embla-carousel-vue'
-
+  import Autoplay from 'embla-carousel-autoplay'
+  
+  
   export default {
+    
     setup() {
-      const [emblaNode, emblaApi] = emblaCarouselVue({ loop: true })
-
-      watchEffect(() => {
-        if (emblaApi.value) {
-          console.log(emblaApi.value.slideNodes()) // Access API
+       
+        const autoplayOptions = {
+        delay: 2000,
+        rootNode: (emblaRoot) => emblaRoot.parentElement
         }
-      })
 
-      return { emblaNode, emblaApi }
+      const [emblaNode] = emblaCarouselVue({ loop: true }, [Autoplay(autoplayOptions)])
+      return { emblaNode }
     },
   }
 </script>
-
 <template>
 <div class="embla" ref="emblaNode">
     <div class="embla__container">
-      <div class="embla__slide">Slide 1</div>
-      <div class="embla__slide">Slide 2</div>
-      <div class="embla__slide">Slide 3</div>
+      <div class="embla__slide"><img src="../../public/assets/carousel/File_1.jpg " width="600rem"  height="330rem" ></img></div>
+      <div class="embla__slide"><img src="../../public/assets/carousel/File_2.jpg " width="600rem"  height="330rem" ></img></div>
+      <div class="embla__slide"><img src="../../public/assets/carousel/File_3.jpg " width="600rem"  height="330rem" ></img></div>
+      <div class="embla__slide"><img src="../../public/assets/carousel/File_4.jpg " width="600rem"  height="330rem" ></img></div>
+      <div class="embla__slide"><img src="../../public/assets/carousel/File_6.jpg " width="600rem"  height="330rem" ></img></div>
+      <div class="embla__slide"><img src="../../public/assets/carousel/File_7.jpg " width="600rem"  height="330rem" ></img></div>
+      <div class="embla__slide"><img src="../../public/assets/carousel/File_8.jpg " width="600rem"  height="330rem" ></img></div>
+      <div class="embla__slide"><img src="../../public/assets/carousel/File_9.jpg " width="600rem"  height="330rem" ></img></div>
+      <div class="embla__slide"><img src="../../public/assets/carousel/File_10.jpg " width="600rem"  height="330rem" ></img></div>
+      <div class="embla__slide"><img src="../../public/assets/carousel/File_11.jpg " width="600rem"  height="330rem" ></img></div>
+      <div class="embla__slide"><img src="../../public/assets/carousel/File_12.jpg " width="600rem"  height="330rem" ></img></div>
+      <div class="embla__slide"><img src="../../public/assets/carousel/File_13.jpg " width="600rem"  height="330rem" ></img></div>
+      <div class="embla__slide"><img src="../../public/assets/carousel/File_14.jpg " width="600rem"  height="330rem" ></img></div>
     </div>
   </div>
     <main>
