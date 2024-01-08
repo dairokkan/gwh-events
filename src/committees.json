@@ -3,64 +3,155 @@
         "name": "United Nations Security Council (UNSC)",
         "id": "unsc",
         "agenda": "Discussing the current state of affairs of the Israel-Hamas War",
-        "chair": "Harihar Prasad",
-        "vicechair": "Arya Poddar",
-        "moderator": "Nitesh Kothari"
+        "chair": {
+            "name": "Harihar Prasad",
+            "desc": "",
+            "imgpath": ""
+        },
+        "vicechair": {
+            "name": "Arya Poddar",
+            "desc": "",
+            "imgpath": ""
+        },
+        "moderator": {
+            "name": "Nitesh Kothari",
+            "desc": "",
+            "imgpath": ""
+        }
     },
     {
         "name": "United Nations Human Rights Council (UNHRC)",
         "id": "unhrc",
         "agenda": "Addressing the human rights crisis in Myanmar after the military coup of 2021",
-        "chair": "Veena Karthik",
-        "vicechair": "Anusha Baghla",
-        "moderator": "Anita Bhat"
+        "chair": {
+            "name": "Veena Karthik",
+            "desc": "",
+            "imgpath": ""
+        },
+        "vicechair": {
+            "name": "Anita Bhat",
+            "desc": "",
+            "imgpath": ""
+        },
+        "moderator": {
+            "name": "Anusha Bhagla",
+            "desc": "",
+            "imgpath": ""
+        }
     },
     {
         "name": "North Atlantic Treaty Organization (NATO)",
         "id": "nato",
         "agenda": "Addressing Russian activity in Ukraine and its wider impact on Europe",
-        "chair": "Mukul N Kumar",
-        "vicechair": "Garvit Shah",
-        "moderator": "Vishruth Jasti"
+        "chair": {
+            "name": "Mukul Kumar",
+            "desc": "",
+            "imgpath": ""
+        },
+        "vicechair": {
+            "name": "Garvit Shah",
+            "desc": "",
+            "imgpath": ""
+        },
+        "moderator": {
+            "name": "Ansh Jhunjhunwala",
+            "desc": "",
+            "imgpath": ""
+        }
     },
     {
         "name": "Disarmament and International Security Council (DISEC)",
         "id": "disec",
         "agenda": "Discussing the proliferation of arms in the Middle East with special reference to the involvement of non-state actors",
-        "chair": "Samhita Madakshira",
-        "vicechair": "Ashmit Singh",
-        "moderator": "Ishani Srinivas"
+        "chair": {
+            "name": "Samhita Madakshira",
+            "desc": "",
+            "imgpath": ""
+        },
+        "vicechair": {
+            "name": "Ashmit Singh",
+            "desc": "",
+            "imgpath": ""
+        },
+        "moderator": {
+            "name": "Ishani Srinivas",
+            "desc": "",
+            "imgpath": ""
+        }
     },
     {
         "name": "United Nations Environmental Programme (UNEP)",
         "id": "unep",
         "agenda": "Discussing avenues to address marine pollution in South-East Asia",
-        "chair": "Riana Kapoor",
-        "vicechair": "Suhani Singh",
-        "moderator": "Prishaa Dharmarha"
+        "chair": {
+            "name": "Riana Kapoor",
+            "desc": "",
+            "imgpath": ""
+        },
+        "vicechair": {
+            "name": "Suhani Singh",
+            "desc": "",
+            "imgpath": ""
+        },
+        "moderator": {
+            "name": "Prishaa Dharmarha",
+            "desc": "",
+            "imgpath": ""
+        }
     },
     {
         "name": "Social, Humanitarian and Cultural Committee (SOCHUM)",
         "id": "sochum",
         "agenda": "Addressing the situation pertaining to the use of illegal human labour with special emphasis on Asia-Pacific-based and South Asian Nations",
-        "chair": "Riti Prabhu",
-        "vicechair": "Ayaan Gupta",
-        "moderator": "Sparsh Bhowmick"
+        "chair": {
+            "name": "Riti Prabhu",
+            "desc": "",
+            "imgpath": ""
+        },
+        "vicechair": {
+            "name": "Ayaan Gupta",
+            "desc": "",
+            "imgpath": ""
+        },
+        "moderator": {
+            "name": "Sparsh Bhowmick",
+            "desc": "",
+            "imgpath": ""
+        }
     },
     {
         "name": "Continuous Crisis Committee (CCC)",
         "id": "ccc",
         "agenda": "Beginning of operation \"Rolling Thunder\" [Freeze date - March 8, 1965]",
-        "chair": "Rishikesh",
-        "vicechair": "Daksh Aggarwal",
-        "moderator": "Anish Vivek"
+        "chair": {
+            "name": "Rishikesh",
+            "desc": "",
+            "imgpath": ""
+        },
+        "vicechair": {
+            "name": "Aarav Kejriwal",
+            "desc": "",
+            "imgpath": ""
+        },
+        "vicechair2": {
+            "name": "Daksh Aggarwal",
+            "desc": "",
+            "imgpath": ""
+        }
     },
     {
         "name": "International Press Corps",
         "id": "ipc",
         "agenda": "To report on contemporary geopolitics while representing different viewpoints",
-        "chair": "Aarush Vyas",
-        "vicechair": "Anya Sapru",
-        "moderator": "Aarav Kejiriwal"
+        "chair": {
+            "name": "Aarush Vyas",
+            "desc": "",
+            "imgpath": ""
+        },
+        "vicechair": {
+            "name": "Anya Sapru",
+            "desc": "",
+            "imgpath": ""
+        }
     }
 ]}

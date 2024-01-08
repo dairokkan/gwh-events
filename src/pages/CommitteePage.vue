@@ -1,14 +1,31 @@
 <script setup lang="ts">
 import { useHead } from '@unhead/vue';
 
-const props = defineProps({
-    name: String,
-    id: String,
-    agenda: String,
-    chair: String,
-    vicechair: String,
-    moderator: String
-})
+const props = defineProps<{
+    name: string,
+    id: string,
+    agenda: string,
+    chair?: {
+        name: string,
+        desc: string,
+        imgpath: string
+    },
+    vicechair?: {
+        name: string,
+        desc: string,
+        imgpath: string
+    },
+    vicechair2?: {
+        name: string,
+        desc: string,
+        imgpath: string
+    },
+    moderator?: {
+        name: string,
+        desc: string,
+        imgpath: string
+    }
+}>()
 
 useHead({
     title: props.id?.toUpperCase() + " | GWH JMUN 2024"
@@ -24,21 +41,27 @@ useHead({
         </div>
         <h1 class="eb-title">Executive Board</h1>
         <div class="eb">
-            <div class="mem">
+            <div class="mem" v-if="chair!=undefined">
                 <img src="">
-                <h2 class="name">{{ props.chair }}</h2>
+                <h2 class="name">{{ props.chair!.name }}</h2>
                 <h3 class="tl">Head Chair</h3>
                 <span class="desc"></span>
             </div>
-            <div class="mem">
+            <div class="mem" v-if="vicechair!=null">
                 <img src="">
-                <h2 class="name">{{ props.vicechair }}</h2>
+                <h2 class="name">{{ props.vicechair!.name }}</h2>
                 <h3 class="tl">Vice Chair</h3>
                 <span class="desc"></span>
             </div>
-            <div class="mem">
+            <div class="mem" v-if="vicechair2!=null">
                 <img src="">
-                <h2 class="name">{{ props.moderator }}</h2>
+                <h2 class="name">{{ props.vicechair2!.name }}</h2>
+                <h3 class="tl">Vice Chair</h3>
+                <span class="desc"></span>
+            </div>
+            <div class="mem" v-if="moderator!=null">
+                <img src="">
+                <h2 class="name">{{ props.moderator!.name }}</h2>
                 <h3 class="tl">Moderator</h3>
                 <span class="desc"></span>
             </div>
@@ -55,7 +78,7 @@ main {
     margin: 0 10px;
     border: 2px solid #3b3b3b;
     border-radius: 20px;
-    padding: 125px 15px;
+    padding: 75px 15px;
     display: flex;
     flex-direction: column;
     text-align: center;
