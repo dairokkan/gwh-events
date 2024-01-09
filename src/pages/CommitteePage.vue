@@ -38,6 +38,10 @@ useHead({
             <img :src="`/assets/committee_logos/${props.id}.png`" class="commlogo">
             <h1 class="commname">{{ props.name }}</h1>
             <div class="agenda">Agenda: {{ props.agenda }}</div>
+            <a class="bg-btn" :href="`/background_guides/${props.id}_bg.pdf`">
+                Background Guide
+                <svg xmlns="http://www.w3.org/2000/svg" height="45" viewBox="0 -960 960 960" width="45"><path class="right-arrow" d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg>
+            </a>
         </div>
         <h1 class="eb-title">Executive Board</h1>
         <div class="eb">
@@ -127,5 +131,26 @@ h3.tl {
     font-size: 1.25em;
     margin: 0;
     font-weight: normal;
+}
+
+a.bg-btn {
+    padding: 15px;
+    margin: 10px;
+    background: linear-gradient(#0f96ab, #0fab77);
+    font-size: 1.5em;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+a.bg-btn > svg {
+    height: 24px;
+    padding: 2px;
+}
+
+path.right-arrow {
+    fill: #fff;
 }
 </style>

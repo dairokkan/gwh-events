@@ -62,7 +62,7 @@ watch(
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif !important;
     background-color: #1a1a1a;
     color: #fff;
 }
