@@ -46,28 +46,36 @@ useHead({
         <h1 class="eb-title">Executive Board</h1>
         <div class="eb">
             <div class="mem" v-if="chair!=undefined">
-                <img src="">
-                <h2 class="name">{{ props.chair!.name }}</h2>
-                <h3 class="tl">Head Chair</h3>
-                <span class="desc"></span>
+                <div class="info">
+                    <img src="">
+                    <h2 class="name">{{ props.chair!.name }}</h2>
+                    <h3 class="tl">Head Chair</h3>
+                </div>
+                <div class="desc">{{ props.chair!.desc }}</div>
             </div>
             <div class="mem" v-if="vicechair!=null">
-                <img src="">
-                <h2 class="name">{{ props.vicechair!.name }}</h2>
-                <h3 class="tl">Vice Chair</h3>
-                <span class="desc"></span>
+                <div class="info">
+                    <img src="">
+                    <h2 class="name">{{ props.vicechair!.name }}</h2>
+                    <h3 class="tl">Vice Chair</h3>
+                </div>
+                <div class="desc">{{ props.vicechair!.desc }}</div>
             </div>
             <div class="mem" v-if="vicechair2!=null">
-                <img src="">
-                <h2 class="name">{{ props.vicechair2!.name }}</h2>
-                <h3 class="tl">Vice Chair</h3>
-                <span class="desc"></span>
+                <div class="info">
+                    <img src="">
+                    <h2 class="name">{{ props.vicechair2!.name }}</h2>
+                    <h3 class="tl">Vice Chair</h3>
+                </div>
+                <div class="desc">{{ props.vicechair2!.desc }}</div>
             </div>
             <div class="mem" v-if="moderator!=null">
-                <img src="">
-                <h2 class="name">{{ props.moderator!.name }}</h2>
-                <h3 class="tl">Moderator</h3>
-                <span class="desc"></span>
+                <div class="info">
+                    <img src="">
+                    <h2 class="name">{{ props.moderator!.name }}</h2>
+                    <h3 class="tl">Moderator</h3>
+                </div>
+                <div class="desc">{{ props.moderator!.desc }}</div>
             </div>
         </div>
     </main>
@@ -112,14 +120,25 @@ h1.eb-title {
 
 .eb {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
     margin: 0 15%;
     text-align: center;
 }
 
 .mem {
-    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    width: 100%;
+}
+
+.info {
+    padding: 0 5%;
+    width: 30%;
+    text-align: center;
 }
 
 h2.name {
@@ -152,5 +171,10 @@ a.bg-btn > svg {
 
 path.right-arrow {
     fill: #fff;
+}
+
+.desc {
+    padding: 5px 0;
+    width: 60%;
 }
 </style>
