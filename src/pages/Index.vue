@@ -80,11 +80,9 @@ h2.subtitle {
     overflow: hidden;
   }
   .embla__container {
-    display: flex;
-    
-    width: 150%;
-    
-    padding-right: 60%;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
   }
   .embla__slide {
     flex: 0 0 100%;
