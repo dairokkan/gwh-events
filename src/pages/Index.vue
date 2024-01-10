@@ -80,6 +80,7 @@ h2.subtitle {
     overflow: hidden;
   }
   .embla__container {
+    display: flex;
     margin: auto;
     width: 50%;
     padding: 10px;
