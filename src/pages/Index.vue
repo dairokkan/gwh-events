@@ -20,19 +20,19 @@
 <template>
 <div class="embla" ref="emblaNode">
     <div class="embla__container">
-      <div class="embla__slide"><img src="/assets/carousel/File_1.jpg " width="1000rem"  height="550rem" ></div>
-      <div class="embla__slide"><img src="/assets/carousel/File_2.jpg " width="1000rem"  height="550rem" ></div>
-      <div class="embla__slide"><img src="/assets/carousel/File_3.jpg " width="1000rem"  height="550rem" ></div>
-      <div class="embla__slide"><img src="/assets/carousel/File_4.jpg " width="1000rem"  height="550rem" ></div>
-      <div class="embla__slide"><img src="/assets/carousel/File_6.jpg " width="1000rem"  height="550rem" ></div>
-      <div class="embla__slide"><img src="/assets/carousel/File_7.jpg " width="1000rem"  height="550rem" ></div>
-      <div class="embla__slide"><img src="/assets/carousel/File_8.jpg " width="1000rem"  height="550rem" ></div>
-      <div class="embla__slide"><img src="/assets/carousel/File_9.jpg " width="1000rem"  height="550rem" ></div>
-      <div class="embla__slide"><img src="/assets/carousel/File_10.jpg " width="1000rem"  height="550rem" ></div>
-      <div class="embla__slide"><img src="/assets/carousel/File_11.jpg " width="1000rem"  height="550rem" ></div>
-      <div class="embla__slide"><img src="/assets/carousel/File_12.jpg " width="1000rem"  height="550rem" ></div>
-      <div class="embla__slide"><img src="/assets/carousel/File_13.jpg " width="1000rem"  height="550rem" ></div>
-      <div class="embla__slide"><img src="/assets/carousel/File_14.jpg " width="1000rem"  height="550rem" ></div>
+      <div class="embla__slide"><img src="/assets/carousel/File_1.jpg " width="600rem"  height="330rem" ></div>
+      <div class="embla__slide"><img src="/assets/carousel/File_2.jpg " width="600rem"  height="330rem" ></div>
+      <div class="embla__slide"><img src="/assets/carousel/File_3.jpg " width="600rem"  height="330rem" ></div>
+      <div class="embla__slide"><img src="/assets/carousel/File_4.jpg " width="600rem"  height="330rem" ></div>
+      <div class="embla__slide"><img src="/assets/carousel/File_6.jpg " width="600rem"  height="330rem" ></div>
+      <div class="embla__slide"><img src="/assets/carousel/File_7.jpg " width="600rem"  height="330rem" ></div>
+      <div class="embla__slide"><img src="/assets/carousel/File_8.jpg " width="600rem"  height="330rem" ></div>
+      <div class="embla__slide"><img src="/assets/carousel/File_9.jpg " width="600rem"  height="330rem" ></div>
+      <div class="embla__slide"><img src="/assets/carousel/File_10.jpg " width="600rem"  height="330rem" ></div>
+      <div class="embla__slide"><img src="/assets/carousel/File_11.jpg " width="600rem"  height="330rem" ></div>
+      <div class="embla__slide"><img src="/assets/carousel/File_12.jpg " width="600rem"  height="330rem" ></div>
+      <div class="embla__slide"><img src="/assets/carousel/File_13.jpg " width="600rem"  height="330rem" ></div>
+      <div class="embla__slide"><img src="/assets/carousel/File_14.jpg " width="600rem"  height="330rem" ></div>
     </div>
   </div>
     <main>
