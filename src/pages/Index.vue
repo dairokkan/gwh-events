@@ -18,7 +18,7 @@
   }
 </script>
 <template>
-<!--<div class="embla" ref="emblaNode">
+<div class="embla" ref="emblaNode">
     <div class="embla__container">
       <div class="embla__slide"><img src="/assets/carousel/File_1.jpg " width="600rem"  height="330rem" ></div>
       <div class="embla__slide"><img src="/assets/carousel/File_2.jpg " width="600rem"  height="330rem" ></div>
@@ -34,7 +34,7 @@
       <div class="embla__slide"><img src="/assets/carousel/File_13.jpg " width="600rem"  height="330rem" ></div>
       <div class="embla__slide"><img src="/assets/carousel/File_14.jpg " width="600rem"  height="330rem" ></div>
     </div>
-  </div>-->
+  </div>
     <main>
         <div class="mainimg">
             <h1 class="title">GWH JMUN 2024</h1>
