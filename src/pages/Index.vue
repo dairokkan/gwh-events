@@ -81,7 +81,7 @@ h2.subtitle {
   }
   .embla__container {
     display: flex;
-    margin: auto;
+    
     width: 100%;
     padding-right: 50%;
     padding-left: 50%;
