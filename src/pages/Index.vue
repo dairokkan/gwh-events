@@ -81,9 +81,12 @@ h2.subtitle {
   }
   .embla__container {
     display: flex;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
   }
   .embla__slide {
-    flex: 0 0 100%;
+    flex: 0 0 1000%;
     min-width: 0;
   }
 </style>
