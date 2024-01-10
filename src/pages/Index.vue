@@ -83,7 +83,7 @@ h2.subtitle {
     display: flex;
     margin: auto;
     width: 100%;
-    padding: 10px;
+    padding-right: 200px;
   }
   .embla__slide {
     flex: 0 0 100%;
