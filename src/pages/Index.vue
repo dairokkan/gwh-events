@@ -81,6 +81,10 @@ h2.subtitle {
   }
   .embla__container {
     display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   .embla__slide {
     flex: 0 0 100%;
