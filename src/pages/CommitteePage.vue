@@ -135,6 +135,11 @@ h1.eb-title {
     width: 100%;
 }
 
+.mem:not(:last-child) {
+    padding-bottom: 1em;
+    border-bottom: 1px solid #363636;
+}
+
 .info {
     padding: 0 5%;
     width: 30%;
@@ -176,5 +181,6 @@ path.right-arrow {
 .desc {
     padding: 5px 0;
     width: 60%;
+    white-space: pre-wrap;
 }
 </style>
