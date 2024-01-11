@@ -47,7 +47,7 @@ useHead({
         <div class="eb">
             <div class="mem" v-if="chair!=undefined">
                 <div class="info">
-                    <img src="">
+                    <img :src="props.chair!.imgpath">
                     <h2 class="name">{{ props.chair!.name }}</h2>
                     <h3 class="tl">Head Chair</h3>
                 </div>
@@ -55,7 +55,7 @@ useHead({
             </div>
             <div class="mem" v-if="vicechair!=null">
                 <div class="info">
-                    <img src="">
+                    <img :src="props.vicechair!.imgpath">
                     <h2 class="name">{{ props.vicechair!.name }}</h2>
                     <h3 class="tl">Vice Chair</h3>
                 </div>
@@ -63,7 +63,7 @@ useHead({
             </div>
             <div class="mem" v-if="vicechair2!=null">
                 <div class="info">
-                    <img src="">
+                    <img :src="props.vicechair2!.imgpath">
                     <h2 class="name">{{ props.vicechair2!.name }}</h2>
                     <h3 class="tl">Vice Chair</h3>
                 </div>
@@ -71,7 +71,7 @@ useHead({
             </div>
             <div class="mem" v-if="moderator!=null">
                 <div class="info">
-                    <img src="">
+                    <img :src="props.moderator!.imgpath">
                     <h2 class="name">{{ props.moderator!.name }}</h2>
                     <h3 class="tl">Moderator</h3>
                 </div>
@@ -144,6 +144,12 @@ h1.eb-title {
     padding: 0 5%;
     width: 30%;
     text-align: center;
+}
+
+.info > img {
+    width: 80%;
+    border: 1px solid #363636;
+    border-radius: 50%;
 }
 
 h2.name {
