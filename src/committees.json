@@ -2,10 +2,10 @@
     {
         "name": "United Nations Security Council (UNSC)",
         "id": "unsc",
-        "agenda": "TBD",
+        "agenda": "Discussing territorial disputes in the South China Sea",
         "chair": {
             "name": "Harihar Prasad",
-            "desc": " `Everything can be taken from a man but one thing: the last of the human freedoms—to choose one’s attitude in any given set of circumstances, to choose one’s own way.` ― Viktor E. Frankl. \n\n  The head chair of UNSC, Harihar Prasad, is bold, outspoken, and always glad to propagate chaos in committee. With an impressive perfect placement record across a diverse range of committees, his flair for the dramatic and obsessive knowledge of international law is what makes him a massive presence anywhere. Starting off with a purely aggressive style that slowly evolved to one with exuberant speeches and carefully quoted articles from international law, every single conference adds to his wealth of knowledge, ensuring he learns at a frightening pace. ",
+            "desc": " \"Everything can be taken from a man but one thing: the last of the human freedoms—to choose one’s attitude in any given set of circumstances, to choose one’s own way.\" ― Viktor E. Frankl. \n\n  The head chair of UNSC, Harihar Prasad, is bold, outspoken, and always glad to propagate chaos in committee. With an impressive perfect placement record across a diverse range of committees, his flair for the dramatic and obsessive knowledge of international law is what makes him a massive presence anywhere. Starting off with a purely aggressive style that slowly evolved to one with exuberant speeches and carefully quoted articles from international law, every single conference adds to his wealth of knowledge, ensuring he learns at a frightening pace. ",
             "imgpath": "/assets/eb_pics/UNSC/Harihar Prasad.png"
         },
         "vicechair": {
@@ -15,7 +15,7 @@
         },
         "moderator": {
             "name": "Nitesh Kothari",
-            "desc": "",
+            "desc": "“Anyone can do my job, but no one can be me.” - Harvey Specter\n\nThis passionate debater is a force of nature, underscoring his unwavering commitment for international relations in almost every committee he has been to. Nitesh is anything but simple; With his crazy shenanigans and witty comebacks, he enjoys nothing but a chaotic and fierceful debate. His hidden intentions, confident speaking and strong presence in committee never fails to shake down his opponents. But, on the flip side, his cheerful character mixed with his optimistic mentality is just the positivity the committee needs. ",
             "imgpath": "/assets/eb_pics/UNSC/Nitesh Kothari.png"
         },
         "na": true
@@ -31,12 +31,12 @@
         },
         "vicechair": {
             "name": "Anita Bhat",
-            "desc": " `Democracy means simply the bludgeoning of the people by the people for the people.` - Oscar Wilde. \n\n  Anita “I swear I’m 7 kilometres tall” Bhat, the moderator of the UNHRC, famed for her lobbying and aggressive speeches, is a delegate who never fails to create the most chaotic committee possible. She is fond of citing obscure articles from myriads of conventions to call out hypocrisy and is fueled with a desire to keep the committee interesting with controversial arguments and haphazard unmods. She has multiple placements over a wide range of committees from CSWs to UNSCs, but has a soft spot for humanitarian agendas. With an experience of around 15 MUNs, undoubtedly her favourite parts are heated press sessions with the EB menacingly pointing a Nerf gun at her, and writing detailed and impactful resolutions with ridiculous names.",
+            "desc": " \"Democracy means simply the bludgeoning of the people by the people for the people.\" - Oscar Wilde. \n\n  Anita “I swear I’m 7 kilometres tall” Bhat, the moderator of the UNHRC, famed for her lobbying and aggressive speeches, is a delegate who never fails to create the most chaotic committee possible. She is fond of citing obscure articles from myriads of conventions to call out hypocrisy and is fueled with a desire to keep the committee interesting with controversial arguments and haphazard unmods. She has multiple placements over a wide range of committees from CSWs to UNSCs, but has a soft spot for humanitarian agendas. With an experience of around 15 MUNs, undoubtedly her favourite parts are heated press sessions with the EB menacingly pointing a Nerf gun at her, and writing detailed and impactful resolutions with ridiculous names.",
             "imgpath": "/assets/eb_pics/HRC/Anita Bhat.png"
         },
         "moderator": {
             "name": "Anusha Bhagla",
-            "desc": "",
+            "desc": "\"The time is always right to do what is right.\" - Martin Luther King Jr.\n\nFrom delivering passionate speeches, to intense lobbying, Anusha Bagla, the moderator for UNHRC is an enthusiastic, hardworking, and ambitious individual. Anusha’s strong passion for MUNs ignited from the very first conference she attended. Since then, she has had an exciting MUN journey across multiple conferences, placing at numerous committees from UNODC’s to UNEP to IPC and much more. Anusha especially has an undying liking for the intense and thrilling atmosphere created when a heated press session goes on in committee, and savours every bit of it. In the world of MUN, she considers coffee as its official drink; and through resilience and determination ensures opinions and ideas of all delegates are taken into account helping build a bridge between diverse perspectives, and ensuring insightful ideas are shared by the end of committee. Anusha is excited to help MUNNERS explore the world of MUNning and make the committee a fun, and positive experience while driving thoughtful discussions, dissecting problems, and encouraging creativity to build innovative solutions. ",
             "imgpath": "/assets/eb_pics/HRC/Anusha Bhagla.png"
         },
         "na": false
@@ -44,7 +44,7 @@
     {
         "name": "North Atlantic Treaty Organization (NATO)",
         "id": "nato",
-        "agenda": "TBD",
+        "agenda": "Addressing rising tensions along the Russia-Ukraine border (Freeze date: 23rd February 2022)",
         "chair": {
             "name": "Mukul Kumar",
             "desc": " “Show respect to those in Power, don’t follow them blindly” - Christopher Paolini",
@@ -57,7 +57,7 @@
         },
         "moderator": {
             "name": "Ansh Jhunjhunwala",
-            "desc": "`The most common way people give up their power is by thinking they don't have any.` - Alice Walker \n\n Ansh Jhunjhunwala from 11th grade will be the Moderator for NATO. He started his MUN journey at ECOSOC at GWHMUN'2022 and  it sparked an undying love for MUNs. From that moment on he attended almost every MUN he could and secured several placements. Aside from MUN, he also takes a keen interest in cricket and basketball, showcasing his enthusiasm for sports. An aspiring entrepreneur, Ansh also dedicates time to nurturing his business acumen.",
+            "desc": "\"The most common way people give up their power is by thinking they don't have any.\" - Alice Walker \n\n Ansh Jhunjhunwala from 11th grade will be the Moderator for NATO. He started his MUN journey at ECOSOC at GWHMUN'2022 and  it sparked an undying love for MUNs. From that moment on he attended almost every MUN he could and secured several placements. Aside from MUN, he also takes a keen interest in cricket and basketball, showcasing his enthusiasm for sports. An aspiring entrepreneur, Ansh also dedicates time to nurturing his business acumen.",
             "imgpath": "/assets/eb_pics/NATO/Ansh Jhunjhunwala.png"
         },
         "na": true
@@ -68,18 +68,18 @@
         "agenda": "Discussing the proliferation of arms in the Middle East with special reference to the involvement of non-state actors",
         "chair": {
             "name": "Samhita Madakshira",
-            "desc": "`Wit is educated insolence` -Aristotle.\n\n Skilled at delivering convincing speeches and arguments, Samhita has a passionate yet collected committee presence. She is adept at lobbying and thoroughly enjoys the various competitive aspects of MUN. Samhita has the ability to cleverly answer controversial press topics, such as the human rights situation while representing the DPRK. Her extensive knowledge on historical affairs as well as her precise attention to detail has aided her in winning awards in prestigious conferences such as BJCMUN, AMUN and TISBMUN.  Besides her enthusiasm for MUN, Samhita is also a talented basketball player and an avid reader.",
+            "desc": "\"Wit is educated insolence\" -Aristotle.\n\n Skilled at delivering convincing speeches and arguments, Samhita has a passionate yet collected committee presence. She is adept at lobbying and thoroughly enjoys the various competitive aspects of MUN. Samhita has the ability to cleverly answer controversial press topics, such as the human rights situation while representing the DPRK. Her extensive knowledge on historical affairs as well as her precise attention to detail has aided her in winning awards in prestigious conferences such as BJCMUN, AMUN and TISBMUN.  Besides her enthusiasm for MUN, Samhita is also a talented basketball player and an avid reader.",
             "imgpath": "/assets/eb_pics/DISEC/Samhita Madakshira.png"
         },
         "vicechair": {
             "name": "Ashmit Singh",
-            "desc": "`So I went ahead and bought some uranium-`\n\n `-WHAT?` ~ NileRed in an interview\n\n Ashmit, more commonly labelled as `Ashley`, is known for being your co-conspirator in blowing up literally everything. A crisis delegate at heart, he’ll make sure to think of creative and detailed ways to destroy whatever you hold dear in committee, whether it may be by poisonous and flammable gas in Moscow, a cash-filled plane in Berlin, or an anthrax nuke barrage across America. With nearly 10 MUNs of placed experience and an expansive view of international politics and legality, he’ll be quite confident to also find something, apart from his apparent (lack of) humour (and lack of height, completing the vertically challenged gang), to question delegates on until their brains melt from his incessant use of “Yeah but source?” He hopes that each delegate has a wonderful time getting rid of the very same weapons in DISEC that he would have used to incinerate you if he was sitting somewhere at the back of the room, quietly scribbling away as a first-timer.",
+            "desc": "\"So I went ahead and bought some uranium-\"\n\n \"-WHAT?`\" ~ NileRed in an interview\n\n Ashmit, more commonly labelled as `Ashley`, is known for being your co-conspirator in blowing up literally everything. A crisis delegate at heart, he’ll make sure to think of creative and detailed ways to destroy whatever you hold dear in committee, whether it may be by poisonous and flammable gas in Moscow, a cash-filled plane in Berlin, or an anthrax nuke barrage across America. With nearly 10 MUNs of placed experience and an expansive view of international politics and legality, he’ll be quite confident to also find something, apart from his apparent (lack of) humour (and lack of height, completing the vertically challenged gang), to question delegates on until their brains melt from his incessant use of “Yeah but source?” He hopes that each delegate has a wonderful time getting rid of the very same weapons in DISEC that he would have used to incinerate you if he was sitting somewhere at the back of the room, quietly scribbling away as a first-timer.",
             "imgpath": "/assets/eb_pics/DISEC/Ashmit Singh.png"
         },
         "moderator": {
             "name": "Ishani Srinivas",
-            "desc": "",
-            "imgpath": "/assets/eb_pics/DISEC/Ishani Srinivas"
+            "desc": "Ishani Srinivas is a charismatic 11th grader who recently started MUNning but has a knack for debates and elocution. She may not be known around the Bangalore circuit but she is famous for her band 'Short Circuit' which has amassed almost 2000 followers on Instagram. Not only that but Ishani is also passionate about animals and art.",
+            "imgpath": "/assets/eb_pics/DISEC/Ishani Srinivas.png"
         },
         "na": false
     },
@@ -89,18 +89,18 @@
         "agenda": "Discussing avenues to address marine pollution in South-East Asia",
         "chair": {
             "name": "Riana Kapoor",
-            "desc": " `Even if you are on the right track, you will get run over if you just sit there` - Will Rodgers. \n\n Riana is fun-loving, enthusiastic, and energetic. She loves MUNNING as much as she loves her morning cup of coffee. Riana has dedicated herself to the MUN circuit, participating in several committees, and honing her skills as an inquisitive and assertive delegate, learning within the Circuit. Her passion for MUNs has led to her participation in various MUNs and her role as an Executive Board member. Riana is excited to chair such young, curious minds and ignite their passion for MUNs, encouraging them to step out of their comfort zones and share their ideas with the world.",
+            "desc": " \"Even if you are on the right track, you will get run over if you just sit there\" - Will Rodgers. \n\n Riana is fun-loving, enthusiastic, and energetic. She loves MUNNING as much as she loves her morning cup of coffee. Riana has dedicated herself to the MUN circuit, participating in several committees, and honing her skills as an inquisitive and assertive delegate, learning within the Circuit. Her passion for MUNs has led to her participation in various MUNs and her role as an Executive Board member. Riana is excited to chair such young, curious minds and ignite their passion for MUNs, encouraging them to step out of their comfort zones and share their ideas with the world.",
             "imgpath": "/assets/eb_pics/UNEP/Riana Kapoor.png"
         },
         "vicechair": {
             "name": "Suhani Singh",
             "desc": "“Diplomats were invented simply to waste time.” - David Lloyd George. \n\n Suhani Singh is a charismatic, and enthusiastic individual, powers given to her by her lack of height, but made up for by her sheer ingenuity. With an experience of over 10 MUNs, placing in nearly every committee she’s ever set foot in, she leads her committees to success while being tactful and making sure everyone has a voice wherever she goes. Suhani is a history lover with a knack for quoting international law at the most entertaining of times. A quirked eyebrow paired with “So you’re saying delegate” is enough to warn any delegate about what's to come and most can say what follows is never pleasant. Known for her passionate speeches and bubbly personality both in and out of formal sessions Suhani hopes to make UNEP a positive environment for all.",
-            "imgpath": "/assets/eb_pics/UNEP/Suhani Singh"
+            "imgpath": "/assets/eb_pics/UNEP/Suhani Singh.png"
         },
         "moderator": {
             "name": "Prishaa Dharmarha",
-            "desc": "`If you're offered a seat on a rocket ship, don't ask what seat. Just get on` - Sheryl Sandberg \n\n Prishaa is a hard working, devoted and enthusiastic delegate. She has a passion for world events and an undying love for a powerful speech. She will never pass up the chance to stand on a chair and make her point. She is a valuable asset in negotiations due to her great communication abilities and love of heated arguments. She believes in diplomacy and practical solutions . One thing Prishaa believes in is that there's nothing better to elevate your confidence than a good pair of black heels. The impression made by the click-clack of her heels really says `Anything less than extraordinary is a waste of time`",
-            "imgpath": "/assets/eb_pics/UNEP/Prishaa Dharmarha"
+            "desc": "\"If you're offered a seat on a rocket ship, don't ask what seat. Just get on\" - Sheryl Sandberg \n\n Prishaa is a hard working, devoted and enthusiastic delegate. She has a passion for world events and an undying love for a powerful speech. She will never pass up the chance to stand on a chair and make her point. She is a valuable asset in negotiations due to her great communication abilities and love of heated arguments. She believes in diplomacy and practical solutions . One thing Prishaa believes in is that there's nothing better to elevate your confidence than a good pair of black heels. The impression made by the click-clack of her heels really says `Anything less than extraordinary is a waste of time`",
+            "imgpath": "/assets/eb_pics/UNEP/Prishaa Dharmarha.png"
         },
         "na": false
     },
@@ -131,7 +131,7 @@
         "agenda": "Beginning of operation \"Rolling Thunder\" [Freeze date - March 8, 1965]",
         "chair": {
             "name": "Rishikesh Madhuvairy",
-            "desc": "",
+            "desc": "From the Cold War to the Arab Spring, Rishikesh Madhuvairy from Greenwood High International School, is quite the global wartime crisis connoisseur. Having started MUNing during the pandemic, his transition to an offline setting had not been easy. However, Rishikesh has made a name for himself in the circuit having won Outstanding Delegate at Harvard MUN India 2022, alongside a few of his other notable accolades as Best Delegate at NPSHMUN, KMUN, and TISBMUN. Rishikesh hopes to fill make his 9th MUN as an EB member, filled with extravagant crisis direction, fierce debate, nail-biting documentation, and a healthy myriad of solutions that may (or may never) endone filled with extravagant crisis direction, fierce debate, nail-biting documentation, and a healthy myriad of solutions that may (or may never) put an end to this historical demonstration of the Vietnam War.",
             "imgpath": "/assets/eb_pics/CCC/Rishikesh Madhuvairy.png"
         },
         "vicechair": {

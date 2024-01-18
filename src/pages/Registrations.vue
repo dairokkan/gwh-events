@@ -2,7 +2,7 @@
 
 <template>
     <main>
-        <h1>Registrations opening soon</h1>
+        <h1>Registrations opening soon.</h1>
     </main>
 </template>
 

@@ -20,15 +20,13 @@ watch(
 <template>
     <header class="navbar">
         <div class="desktop-nav" v-if="width>450">
-            <RouterLink to="/"><img src="/assets/gwhmun_logo.png" class="navbar-logo"></RouterLink>
-            <ul class="links">
+            <ul class="links">    
+                <li><RouterLink to="/"><img src="/assets/gwhmun_logo.png" class="navbar-logo"></RouterLink></li>
                 <li><RouterLink to="/">Home</RouterLink></li>
                 <!--<li><RouterLink to="/team">Team</RouterLink></li>-->
                 <li><RouterLink to="/committees">Committees</RouterLink></li>
                 <li><RouterLink to="/resources">Resources</RouterLink></li>
-                <li><RouterLink to="/registrations">
-                    <b>Registrations</b>
-                </RouterLink></li>
+                <li><RouterLink to="/registrations">Registrations</RouterLink></li>
                 <li></li>
             </ul>
         </div>
@@ -82,7 +80,6 @@ header.navbar {
 
 .desktop-nav {  
     display: flex;
-    align-items: center;
     flex-direction: row;
 }
 
@@ -110,12 +107,19 @@ header.navbar {
 ul.links {
     list-style: none;
     padding: 0;
+    margin: 0;
     font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 ul.links li {
-    padding: 10px;
+    padding: 10px 0;
     display: inline;
+    font-weight: bold;
+    font-size: 1.25em;
 }
 
 ul.links li a {
