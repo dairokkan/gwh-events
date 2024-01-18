@@ -20,17 +20,20 @@ watch(
 <template>
     <header class="navbar">
         <div class="desktop-nav" v-if="width>450">
-            <img src="/assets/gwhmun_logo.png" class="navbar-logo">
+            <RouterLink to="/"><img src="/assets/gwhmun_logo.png" class="navbar-logo"></RouterLink>
             <ul class="links">
                 <li><RouterLink to="/">Home</RouterLink></li>
                 <!--<li><RouterLink to="/team">Team</RouterLink></li>-->
                 <li><RouterLink to="/committees">Committees</RouterLink></li>
                 <li><RouterLink to="/resources">Resources</RouterLink></li>
+                <li><RouterLink to="/registrations">
+                    <b>Registrations</b>
+                </RouterLink></li>
                 <li></li>
             </ul>
         </div>
         <div class="mobile-nav" v-else>
-            <img src="/assets/gwhmun_logo.png" class="navbar-logo">
+            <RouterLink to="/"><img src="/assets/gwhmun_logo.png" class="navbar-logo"></RouterLink>
             <button class="nav-show" @click="mobile_menu_shown=true"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></button>
         </div>
     </header>
@@ -38,9 +41,11 @@ watch(
             <ul class="links">
                 <li><button class="nav-hide" @click="mobile_menu_shown=false"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></button></li>
                 <li><RouterLink to="/">Home</RouterLink></li>
-                <!--<li><RouterLink to="/team">Team</RouterLink></li>-->
                 <li><RouterLink to="/committees">Committees</RouterLink></li>
                 <li><RouterLink to="/resources">Resources</RouterLink></li>
+                <li><RouterLink to="/registrations">
+                    <b>Registrations</b>
+                </RouterLink></li>
             </ul>
         </div>
     <RouterView/>

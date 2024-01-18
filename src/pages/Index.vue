@@ -18,36 +18,40 @@
   }
 </script>
 <template>
-<div class="embla" ref="emblaNode">
-    <div class="embla__container">
-      <div class="embla__slide"><img src="/assets/carousel/File_1.jpg " width="600rem"  height="400rem" ></div>
-      <div class="embla__slide"><img src="/assets/carousel/File_2.jpg " width="600rem"  height="400rem" ></div>
-      <div class="embla__slide"><img src="/assets/carousel/File_3.jpg " width="600rem"  height="400rem" ></div>
-      <div class="embla__slide"><img src="/assets/carousel/File_4.jpg " width="600rem"  height="400rem" ></div>
-      <div class="embla__slide"><img src="/assets/carousel/File_6.jpg " width="600rem"  height="400rem" ></div>
-      <div class="embla__slide"><img src="/assets/carousel/File_7.jpg " width="600rem"  height="400rem" ></div>
-      <div class="embla__slide"><img src="/assets/carousel/File_8.jpg " width="600rem"  height="400rem" ></div>
-      <div class="embla__slide"><img src="/assets/carousel/File_9.jpg " width="600rem"  height="400rem" ></div>
-      <div class="embla__slide"><img src="/assets/carousel/File_10.jpg " width="600rem"  height="400rem" ></div>
-      <div class="embla__slide"><img src="/assets/carousel/File_11.jpg " width="600rem"  height="400rem" ></div>
-      <div class="embla__slide"><img src="/assets/carousel/File_12.jpg " width="600rem"  height="400rem" ></div>
-      <div class="embla__slide"><img src="/assets/carousel/File_13.jpg " width="600rem"  height="400rem" ></div>
-      <div class="embla__slide"><img src="/assets/carousel/File_14.jpg " width="600rem"  height="400rem" ></div>
-    </div>
-  </div>
     <main>
         <div class="mainimg">
+            <img src="/assets/gwhmun_logo.png" class="commlogo">
             <h1 class="title">GWH JMUN 2024</h1>
             <h2 class="subtitle">For grades 6-8 only</h2>
-            <h2 class="subtitle">Dates TBA</h2>
+            <h2 class="subtitle">15th & 16th February</h2>
         </div>
-        <h1>FLOW OF EVENTS</h1>
-        <h1>LETTER FROM SECGEN</h1>
-        <h1>LETTER FROM DIRGEN</h1>
-
+        <h1 class="msg-title">Letter from the Secretary-General</h1>
+        <div class="msg">
+          <div class="info">
+                    <img src="/assets/eb_pics/UNSC/Harihar Prasad.png">
+                    <h2 class="name">Harihar Prasad</h2>
+                    <h3 class="tl">Secretary-General</h3>
+                </div>
+                <div class="desc">{{`Chaos. Turmoil. Conflict.\n\nIn a world that’s plagued by a myriad of issues, from poverty to civil wars - there lies but one hope for a brighter future. All of you. In each and every one of you lies an ember of infinite potential, a spark that if treated right has the potential to turn into a fire that paints the very sky a shade of glorious crimson.\n\nWe’ve opened the doors for you - doors to a world of debate, research and intense negotiation in pursuit of a better world, a world where needless suffering is a thing of the past, and harmony and peace prevails. However, it is paramount that you recognise that this opportunity depends upon the effort that you put in. The magnitude of change is directly proportional to the dedication and passion with which you approach the challenge before you.\n\nIn the words of Ludwig Van Beethoven, "To play a wrong note is insignificant; to play without passion is inexcusable." It is not your experience that matters, but the passion with which you approach this arena of debate. Fear is a constant. To face that fear and come out on top is what truly separates the extraordinary from the ordinary.\n\nIt is my hope that Greenwood High Junior Model United Nations 2024 ignites within you the same passion for pushing forth global progress and debate that my first MUN did in me. Times are changing, and in but a few short years, we will be the ones looking up to you instead of the other way around. This world needs change - and I have faith that you will be the one to spearhead that change.\n\nThis is but the first step for you on the path to infinity.\n\nResearch. Debate. Push your limits.\n\nThen go out there and change the world.\n\nYours sincerely,\nHarihar Prasad\nSecretary General`}}</div>
+        </div>
     </main>
-     
-
+    <div class="embla" ref="emblaNode">
+      <div class="embla__container">
+        <div class="embla__slide"><img src="/assets/carousel/File_1.jpg " width="600rem"  height="400rem" ></div>
+        <div class="embla__slide"><img src="/assets/carousel/File_2.jpg " width="600rem"  height="400rem" ></div>
+        <div class="embla__slide"><img src="/assets/carousel/File_3.jpg " width="600rem"  height="400rem" ></div>
+        <div class="embla__slide"><img src="/assets/carousel/File_4.jpg " width="600rem"  height="400rem" ></div>
+        <div class="embla__slide"><img src="/assets/carousel/File_6.jpg " width="600rem"  height="400rem" ></div>
+        <div class="embla__slide"><img src="/assets/carousel/File_7.jpg " width="600rem"  height="400rem" ></div>
+        <div class="embla__slide"><img src="/assets/carousel/File_8.jpg " width="600rem"  height="400rem" ></div>
+        <div class="embla__slide"><img src="/assets/carousel/File_9.jpg " width="600rem"  height="400rem" ></div>
+        <div class="embla__slide"><img src="/assets/carousel/File_10.jpg " width="600rem"  height="400rem" ></div>
+        <div class="embla__slide"><img src="/assets/carousel/File_11.jpg " width="600rem"  height="400rem" ></div>
+        <div class="embla__slide"><img src="/assets/carousel/File_12.jpg " width="600rem"  height="400rem" ></div>
+        <div class="embla__slide"><img src="/assets/carousel/File_13.jpg " width="600rem"  height="400rem" ></div>
+        <div class="embla__slide"><img src="/assets/carousel/File_14.jpg " width="600rem"  height="400rem" ></div>
+      </div>
+    </div>
 </template>
 
 <style scoped>
@@ -63,6 +67,11 @@ main {
     display: flex;
     flex-direction: column;
     text-align: center;
+    background-image: url('/assets/mainimg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
 }
 
 h1.title {
@@ -74,6 +83,10 @@ h2.subtitle {
     font-weight: normal;
     font-size: 1.75em;
     margin: 5px
+}
+
+.commlogo {
+    width: 300px;
 }
 
 .embla {
@@ -89,4 +102,75 @@ h2.subtitle {
     flex: 0 0 100%;
     min-width: 0;
   }
+
+  .msg {
+    display: flex;
+    align-items: center;
+    margin: 15px 5%;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #363636;
+    text-align: center;
+}
+
+.info {
+    padding: 0 5%;
+    text-align: center;
+}
+
+.info > img {
+    border: 1px solid #363636;
+    border-radius: 50%;
+}
+
+@media(min-width: 800px) {
+    .msg {
+        flex-direction: row;
+        justify-content: space-between;
+    }   
+    .desc {
+        width: 80%;
+    }
+    .info {
+        width: 30%
+    }
+    .info > img {      
+        width: 80%;
+    }
+}
+
+@media(max-width: 800px) {
+    .msg {
+        flex-direction: column;
+    }
+    .desc {
+        width: 100%;
+    }
+    .info {
+        width: 100%
+    }
+    .info > img {
+        width: 60%;
+    }
+}
+
+.desc {
+    padding: 5px 0;
+    white-space: pre-wrap;
+}
+
+h2.name {
+    font-size: 1.75em;
+    margin: 0;
+}
+
+h3.tl {
+    font-size: 1.25em;
+    margin: 0;
+    font-weight: normal;
+}
+
+h1.msg-title {
+    text-align: center;
+    font-size: 2.5em;
+}
 </style>

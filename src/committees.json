@@ -2,7 +2,7 @@
     {
         "name": "United Nations Security Council (UNSC)",
         "id": "unsc",
-        "agenda": "Discussing the current state of affairs of the Israel-Hamas War",
+        "agenda": "TBD",
         "chair": {
             "name": "Harihar Prasad",
             "desc": " `Everything can be taken from a man but one thing: the last of the human freedoms—to choose one’s attitude in any given set of circumstances, to choose one’s own way.` ― Viktor E. Frankl. \n\n  The head chair of UNSC, Harihar Prasad, is bold, outspoken, and always glad to propagate chaos in committee. With an impressive perfect placement record across a diverse range of committees, his flair for the dramatic and obsessive knowledge of international law is what makes him a massive presence anywhere. Starting off with a purely aggressive style that slowly evolved to one with exuberant speeches and carefully quoted articles from international law, every single conference adds to his wealth of knowledge, ensuring he learns at a frightening pace. ",
@@ -17,7 +17,8 @@
             "name": "Nitesh Kothari",
             "desc": "",
             "imgpath": "/assets/eb_pics/UNSC/Nitesh Kothari.png"
-        }
+        },
+        "na": true
     },
     {
         "name": "United Nations Human Rights Council (UNHRC)",
@@ -37,12 +38,13 @@
             "name": "Anusha Bhagla",
             "desc": "",
             "imgpath": "/assets/eb_pics/HRC/Anusha Bhagla.png"
-        }
+        },
+        "na": false
     },
     {
         "name": "North Atlantic Treaty Organization (NATO)",
         "id": "nato",
-        "agenda": "Addressing Russian activity in Ukraine and its wider impact on Europe",
+        "agenda": "TBD",
         "chair": {
             "name": "Mukul Kumar",
             "desc": " “Show respect to those in Power, don’t follow them blindly” - Christopher Paolini",
@@ -57,7 +59,8 @@
             "name": "Ansh Jhunjhunwala",
             "desc": "`The most common way people give up their power is by thinking they don't have any.` - Alice Walker \n\n Ansh Jhunjhunwala from 11th grade will be the Moderator for NATO. He started his MUN journey at ECOSOC at GWHMUN'2022 and  it sparked an undying love for MUNs. From that moment on he attended almost every MUN he could and secured several placements. Aside from MUN, he also takes a keen interest in cricket and basketball, showcasing his enthusiasm for sports. An aspiring entrepreneur, Ansh also dedicates time to nurturing his business acumen.",
             "imgpath": "/assets/eb_pics/NATO/Ansh Jhunjhunwala.png"
-        }
+        },
+        "na": true
     },
     {
         "name": "Disarmament and International Security Council (DISEC)",
@@ -77,7 +80,8 @@
             "name": "Ishani Srinivas",
             "desc": "",
             "imgpath": "/assets/eb_pics/DISEC/Ishani Srinivas"
-        }
+        },
+        "na": false
     },
     {
         "name": "United Nations Environmental Programme (UNEP)",
@@ -97,7 +101,8 @@
             "name": "Prishaa Dharmarha",
             "desc": "`If you're offered a seat on a rocket ship, don't ask what seat. Just get on` - Sheryl Sandberg \n\n Prishaa is a hard working, devoted and enthusiastic delegate. She has a passion for world events and an undying love for a powerful speech. She will never pass up the chance to stand on a chair and make her point. She is a valuable asset in negotiations due to her great communication abilities and love of heated arguments. She believes in diplomacy and practical solutions . One thing Prishaa believes in is that there's nothing better to elevate your confidence than a good pair of black heels. The impression made by the click-clack of her heels really says `Anything less than extraordinary is a waste of time`",
             "imgpath": "/assets/eb_pics/UNEP/Prishaa Dharmarha"
-        }
+        },
+        "na": false
     },
     {
         "name": "Social, Humanitarian and Cultural Committee (SOCHUM)",
@@ -117,7 +122,8 @@
             "name": "Sparsh Bhowmick",
             "desc": " Sparsh Bhowmick from the 9th grade will be the Moderator for SOCHUM. His MUN journey was off to a rocky start in UNSC at GWHMUN'2022, however just a year later, through resilience and determination, he has managed to place at this very committee at GWHMUN'2023 and at other conferences. Aside from MUN, he also takes a keen interest in international events and enjoys writing about them. He hopes to create a fun and interesting committee for all delegates.",
             "imgpath": "/assets/eb_pics/SOCHUM/Sparsh Bhowmick.png"
-        }
+        },
+        "na": false
     },
     {
         "name": "Continuous Crisis Committee (CCC)",
@@ -137,7 +143,8 @@
             "name": "Daksh Aggarwal",
             "desc": " 'Diplomacy is the art of telling people to go to hell in such a way that they ask for directions.' - Winston Churchill. \n\n Transitioning from experiencing a terrible first MUN - GWHMUN'22 - to achieving the title of Best Delegate at the same conference a year later, he has come a long way. In a crisis committee, he is a force to be reckoned with. From holding a session to kick Russia out of committee, to reviving the Soviet Union (or the “Big Red”, as he likes to call it), his directives are nothing short of amazing (and a little psychotic), and never fail to wreak havoc in committee. His speeches are no different - once a power delegate, he can effortlessly deliver enthralling speeches which shatter the confidence of everyone else in the room. Sometimes suspected of being a communist, your more interesting CCC vice chair",
             "imgpath": "/assets/eb_pics/CCC/Daksh Aggarwal.png"
-        }
+        },
+        "na": false
     },
     {
         "name": "International Press Corps",
@@ -152,6 +159,7 @@
             "name": "Anya Sapru",
             "desc": "“Force is all conquering, but it's victories that are short lived.” - Abraham Lincoln \n\n  Anya Sapru, the Vice Chairperson of IPC, is an 11th grader who’s always enjoyed speaking and arguing especially about the world around her.  Beginning her MUN career at at Oak JMUN 2019 2019, she immediately began to enjoy everything from the tedious tedious research process to the terrifying press. Apart from MUNning, she spends her time listening to music and   she is an art history nerd who is passionate about music and film.“Force is all conquering, but it's victories that are short lived.” - Abraham Lincoln  Anya Sapru, the Vice Chairperson of IPC, is an 11th grader who’s always enjoyed speaking and arguing especially about the world around her.  Beginning her MUN career at at Oak JMUN 2019 2019, she immediately began to enjoy everything from the tedious tedious research process to the terrifying press. Apart from MUNning, she spends her time listening to music and   she is an art history nerd who is passionate about music and film.",
             "imgpath": "/assets/eb_pics/IPC/Anya Sapru.png"
-        }
+        },
+        "na": false
     }
 ]}

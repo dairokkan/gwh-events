@@ -24,7 +24,8 @@ const props = defineProps<{
         name: string,
         desc: string,
         imgpath: string
-    }
+    },
+    na: boolean
 }>()
 
 useHead({
@@ -34,14 +35,18 @@ useHead({
 
 <template>
     <main>
-        <div class="mainimg" :class="'bg-'+props.id">
+        <div class="mainimg" :class="`bg-${props.id}`">
             <img :src="`/assets/committee_logos/${props.id}.png`" class="commlogo">
             <h1 class="commname">{{ props.name }}</h1>
             <div class="agenda">Agenda: {{ props.agenda }}</div>
-            <a class="bg-btn" :href="`/background_guides/${props.id}_bg.pdf`">
+            <a class="bg-btn" :href="`/resources/${props.id}_bg.pdf`" v-if="na==false">
                 Background Guide
                 <svg xmlns="http://www.w3.org/2000/svg" height="45" viewBox="0 -960 960 960" width="45"><path class="right-arrow" d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg>
             </a>
+            <div v-else class="bg-btn-invalid">
+                Background Guide
+                <svg xmlns="http://www.w3.org/2000/svg" height="45" viewBox="0 -960 960 960" width="45"><path class="right-arrow" d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg>
+            </div>
         </div>
         <h1 class="eb-title">Executive Board</h1>
         <div class="eb">
@@ -122,14 +127,12 @@ h1.eb-title {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 15%;
+    margin: 0 5%;
     text-align: center;
 }
 
 .mem {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     margin: 15px 0;
     width: 100%;
@@ -142,14 +145,48 @@ h1.eb-title {
 
 .info {
     padding: 0 5%;
-    width: 30%;
     text-align: center;
 }
 
 .info > img {
-    width: 80%;
     border: 1px solid #363636;
     border-radius: 50%;
+}
+
+@media(min-width: 800px) {
+    .mem {
+        flex-direction: row;
+        justify-content: space-between;
+    }   
+    .desc {
+        width: 80%;
+    }
+    .info {
+        width: 30%
+    }
+    .info > img {      
+        width: 80%;
+    }
+}
+
+@media(max-width: 800px) {
+    .mem {
+        flex-direction: column;
+    }
+    .desc {
+        width: 100%;
+    }
+    .info {
+        width: 100%
+    }
+    .info > img {
+        width: 60%;
+    }
+}
+
+.desc {
+    padding: 5px 0;
+    white-space: pre-wrap;
 }
 
 h2.name {
@@ -175,18 +212,30 @@ a.bg-btn {
     color: #fff;
 }
 
+.bg-btn-invalid {
+    padding: 15px;
+    margin: 10px;
+    background: #707070;
+    font-size: 1.5em;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    cursor: not-allowed;
+}
+
 a.bg-btn > svg {
+    height: 24px;
+    padding: 2px;
+}
+
+.bg-btn-invalid > svg {
     height: 24px;
     padding: 2px;
 }
 
 path.right-arrow {
     fill: #fff;
-}
-
-.desc {
-    padding: 5px 0;
-    width: 60%;
-    white-space: pre-wrap;
 }
 </style>
