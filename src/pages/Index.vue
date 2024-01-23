@@ -23,7 +23,7 @@
             <img src="/assets/gwhmun_logo.png" class="commlogo">
             <h1 class="title">GWH JMUN 2024</h1>
             <h2 class="subtitle">For grades 6-8 only</h2>
-            <h2 class="subtitle">15th & 16th February</h2>
+            <h2 class="subtitle">13th & 14th February</h2>
         </div>
         <h1 class="msg-title">Letter from the Secretary General</h1>
         <div class="msg">
