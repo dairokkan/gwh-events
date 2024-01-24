@@ -5,10 +5,13 @@ const display = "pending" //pending, active, elapsed
 <template>
     <main>
         <div v-if="display=='pending'">
-            <h1>Registrations opening on 24th January.</h1>
+            <div class="pending">
+                <h1>Registrations opening on 27th January.</h1>
+                Due to unforeseen circumstances, the registration date has been pushed back. Read <a href="https://docs.google.com/document/d/1HJREGolCF2uzeF8WSqsMbv8kPYXZYY-3NFDP2BHgzgk/edit?usp=sharing" target="_blank">this notice</a> for more information.
+            </div>
         </div>
         <div v-if="display=='active'" class="active-btn"> 
-            <a href="https://paytm.me/W-pT3GA" target="_blank">
+            <a href="https://paytm.me/W-pT3GA" target="_blank" class="reglink">
                 <h2>Registrations</h2>
                 Registrations will close once requisite numbers are reached, so register quickly!
                 <div></div>
@@ -26,13 +29,16 @@ main {
     padding: 10px;
 }
 
-h1 {
-    font-size: 2.5em;
+div.pending {
     text-align: center;
     padding: 250px 0
 }
 
-a {
+div.pending > h1 {
+    font-size: 2.5em
+}
+
+a.reglink {
     border: 2px solid #3b3b3b;
     border-radius: 25px;
     padding: 60px;
@@ -45,7 +51,7 @@ a {
     flex-direction: column;
 }
 
-a > svg {
+a.reglink > svg {
     height: 40px;
     padding: 10px;
 }
