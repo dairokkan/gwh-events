@@ -66,6 +66,7 @@ path.right-arrow {
 .active-btn {
     padding: 100px 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
