@@ -14,12 +14,12 @@ const display = "active" //pending, active, elapsed
             <a href="https://paytm.me/W-pT3GA" target="_blank" class="reglink">
                 <h2>Registrations</h2>
                 Registrations will close once requisite numbers are reached, so register quickly!
-                <div>Note: </div>
+                <svg xmlns="http://www.w3.org/2000/svg" height="45" viewBox="0 -960 960 960" width="45"><path class="right-arrow" d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg>
+            </a>
+            <div>Note: </div>
 <div>1. Due to a character limit in the email entry field, simply enter as many characters as will fit. Our registrations department will make the necessary changes. </div>
 <div>2. If your section is not present in the dropdown, add it in as a clarification in the MUN experience part of the form. </div>
                 <div>3. Confirmation mails are currently not being sent - rest assured that if the PayTM screen is displayed, the payment has gone through. If you have not received your allocation past February 7th, feel free to reach out.</div>
-                <svg xmlns="http://www.w3.org/2000/svg" height="45" viewBox="0 -960 960 960" width="45"><path class="right-arrow" d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg>
-            </a>
         </div>
         <div v-if="display=='elapsed'">
             <h1>Registrations have closed.</h1>
