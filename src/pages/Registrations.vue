@@ -1,5 +1,5 @@
 <script setup>
-const display = "pending" //pending, active, elapsed
+const display = "active" //pending, active, elapsed
 </script>
 
 <template>
