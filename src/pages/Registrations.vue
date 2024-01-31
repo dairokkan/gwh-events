@@ -25,6 +25,8 @@ const display = "elapsed" //pending, active, elapsed
         </div>
         <div v-if="display=='elapsed'" class="pending">
             <h1>Registrations have closed.</h1>
+            <p>Thank you for the overwhelming response!</p>
+            <p>Allocations out by 7th February.</p>
         </div>
     </main>
 </template>
@@ -36,7 +38,8 @@ main {
 
 div.pending {
     text-align: center;
-    padding: 250px 0
+    padding: 250px 0;
+    font-size: 1.25em;
 }
 
 div.pending > h1 {
