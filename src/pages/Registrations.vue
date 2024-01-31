@@ -1,5 +1,5 @@
 <script setup>
-const display = "active" //pending, active, elapsed
+const display = "elapsed" //pending, active, elapsed
 </script>
 
 <template>
@@ -23,7 +23,7 @@ const display = "active" //pending, active, elapsed
                 <div>3. Confirmation mails are currently not being sent - rest assured that if the PayTM screen is displayed, the payment has gone through. If you have not received your allocation past February 7th, feel free to reach out.</div>
             </div>
         </div>
-        <div v-if="display=='elapsed'">
+        <div v-if="display=='elapsed'" class="pending">
             <h1>Registrations have closed.</h1>
         </div>
     </main>
