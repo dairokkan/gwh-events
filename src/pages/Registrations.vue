@@ -25,7 +25,7 @@ const display = "elapsed" //pending, active, elapsed
         </div>
         <div v-if="display=='elapsed'" class="pending">
             <h1>Registrations have closed.</h1>
-            <p>Thank you for the overwhelming response!</p>
+            <p>Thank you for the overwhelming response.</p>
             <p>Allocations are out!</p>
         </div>
     </main>
