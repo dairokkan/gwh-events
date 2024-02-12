@@ -25,6 +25,7 @@
             <h2 class="subtitle">For grades 6-8 only</h2>
             <h2 class="subtitle">13th & 14th February</h2>
         </div>
+        <h1 class="msg-title">Flow of Events</h1>
         <div class="flow">
             <div class="day">
                 <h1>Day 1</h1>
