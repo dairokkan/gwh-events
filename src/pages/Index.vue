@@ -25,6 +25,29 @@
             <h2 class="subtitle">For grades 6-8 only</h2>
             <h2 class="subtitle">13th & 14th February</h2>
         </div>
+        <div class="flow">
+            <div class="day">
+                <h1>Day 1</h1>
+                <p>Reporting time to school: 7:45 AM</p>
+                <p>Registrations: 8:00 - 9:00 AM</p>
+                <p>Opening Ceremony: 9:00 - 10:00 AM</p>
+                <p>Juice Break: 10:00 - 10:15 AM</p>
+                <p>Committee Session 1: 10:15 AM - 12:20 PM</p>
+                <p>Lunch: 12:20 - 12:55 PM</p>
+                <p>Committee Session 2: 12:55 PM - 2:00 PM</p>
+                <p>Disperal: 2:05 PM</p>
+            </div>
+            <div class="day">
+                <h1>Day 2</h1>
+                <p>Reporting time to school (at the respective committee rooms): 7:45 AM</p>
+                <p>Committee Session 3: 8:00 - 10:00 AM</p>
+                <p>Juice Break: 10:00 - 10:15 AM</p>
+                <p>Committee Session 4: 10:15 AM - 12:20 PM</p>
+                <p>Lunch: 12:20 - 12:55 PM</p>
+                <p>Closing Ceremony: 1:00 - 2:00 PM</p>
+                <p>Dispersal: 2:05 PM</p>
+            </div>
+        </div>
         <h1 class="msg-title">Letter from the Secretary General</h1>
         <div class="msg">
             <div class="info">
@@ -181,5 +204,30 @@ h3.tl {
 h1.msg-title {
     text-align: center;
     font-size: 2.5em;
+}
+
+.flow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.day {
+    border: 1px solid #363636;
+    border-radius: 20px;
+    padding: 50px 15px;
+    text-align: center;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.day p {
+    margin: 5px;
+    font-size: 1.1em;
 }
 </style>
