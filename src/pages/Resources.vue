@@ -34,7 +34,7 @@ useHead({
                 </div>
             </div>
         </div>-->
-        No
+        Soon
     </main>
 </template>
 
