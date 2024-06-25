@@ -9,7 +9,7 @@ useHead({
 
 <template>
     <main>
-        <h1>Delegate Resouces</h1>
+        <!--<h1>Delegate Resouces</h1>
         <div class="bg">
             <div class="bg-link bg-matrix">
                 <a href="https://docs.google.com/spreadsheets/d/1n-utOOH1Qc8MOjoZpv0b9179K-Juq2IrfAQIN3b9mJ0/edit?usp=sharing">
@@ -33,7 +33,8 @@ useHead({
                     <h1>{{ item.id.toUpperCase() }} (TBD)</h1>
                 </div>
             </div>
-        </div>
+        </div>-->
+        No
     </main>
 </template>
 

@@ -2,164 +2,253 @@
     {
         "name": "United Nations Security Council (UNSC)",
         "id": "unsc",
-        "agenda": "Discussing territorial disputes in the South China Sea",
+        "agenda": "Addressing rising tensions in the Middle-East, with special focus on the Axis of Resistance (Double Delegation)",
         "chair": {
-            "name": "Harihar Prasad",
-            "desc": " \"Everything can be taken from a man but one thing: the last of the human freedoms—to choose one’s attitude in any given set of circumstances, to choose one’s own way.\" ― Viktor E. Frankl. \n\n  The head chair of UNSC, Harihar Prasad, is bold, outspoken, and always glad to propagate chaos in committee. With an impressive perfect placement record across a diverse range of committees, his flair for the dramatic and obsessive knowledge of international law is what makes him a massive presence anywhere. Starting off with a purely aggressive style that slowly evolved to one with exuberant speeches and carefully quoted articles from international law, every single conference adds to his wealth of knowledge, ensuring he learns at a frightening pace. ",
-            "imgpath": "/assets/eb_pics/UNSC/Harihar Prasad.png"
+            "name": "",
+            "desc": "",
+            "imgpath": ""
         },
         "vicechair": {
-            "name": "Aarya Poddar",
-            "desc": " “I mean, you could claim that anything’s real if the only basis for believing in it is that nobody’s proved it doesn’t exist!” -Hermione Granger  \n\n  From watching legends of the Bangalore circuit battle in committee during GWHMUN2022 to writing horrible directives about agriculture (she swears she has improved now) Aarya has had nothing short of a turbulent and exciting MUN career. Having placed at every MUN she has attended - excluding the first, she loves being the most controversial delegate in committee having only her trusty pair of black heels and legal loopholes as a defence against allegations of hypocrisy. Despite being called “vertically challenged” by her peers she loves nothing more than a chaotic ‘unmod’ getting into heated debates about absolutely anything. Passionate speeches and long resolutions are her forte so keep an eye out for her as the girl with the longest list of annexure ideas in committee.",
-            "imgpath": "/assets/eb_pics/UNSC/Arya Poddar.png"
+            "name": "",
+            "desc": "",
+            "imgpath": ""
         },
         "moderator": {
-            "name": "Nitesh Kothari",
-            "desc": "“Anyone can do my job, but no one can be me.” - Harvey Specter\n\nThis passionate debater is a force of nature, underscoring his unwavering commitment for international relations in almost every committee he has been to. Nitesh is anything but simple; With his crazy shenanigans and witty comebacks, he enjoys nothing but a chaotic and fierceful debate. His hidden intentions, confident speaking and strong presence in committee never fails to shake down his opponents. But, on the flip side, his cheerful character mixed with his optimistic mentality is just the positivity the committee needs. ",
-            "imgpath": "/assets/eb_pics/UNSC/Nitesh Kothari.png"
+            "name": "",
+            "desc": "",
+            "imgpath": ""
         },
-        "na": false
-    },
-    {
-        "name": "United Nations Human Rights Council (UNHRC)",
-        "id": "unhrc",
-        "agenda": "Addressing the human rights crisis in Myanmar after the military coup of 2021",
-        "chair": {
-            "name": "Veena Karthik",
-            "desc": " “I discovered at a very early age that if I talk long enough, I can make anything right or wrong. So either I'm God or truth is relative. In either case, booyah!” -Jeff Winger, Community \n\n An enthusiastic delegate since the age of 12, Veena possesses a passion for politics and a ferocious drive to argue. Hoping to per-sue medicine in her future, she has an undoubted favouritism towards UNHRCs and WHOs.  She enjoys fiercely defending human rights and bending committees to her will. With an extensive experience in MUNs and multiple awards under her belt, Veena looks forward to fiery debate and meaningful discussions in committee.",
-            "imgpath": "/assets/eb_pics/HRC/Veena Karthik.png"
-        },
-        "vicechair": {
-            "name": "Anita Bhat",
-            "desc": " \"Democracy means simply the bludgeoning of the people by the people for the people.\" - Oscar Wilde. \n\n  Anita “I swear I’m 7 kilometres tall” Bhat, the vice-chair of the UNHRC, famed for her lobbying and aggressive speeches, is a delegate who never fails to create the most chaotic committee possible. She is fond of citing obscure articles from myriads of conventions to call out hypocrisy and is fueled with a desire to keep the committee interesting with controversial arguments and haphazard unmods. She has multiple placements over a wide range of committees from CSWs to UNSCs, but has a soft spot for humanitarian agendas. With an experience of around 15 MUNs, undoubtedly her favourite parts are heated press sessions with the EB menacingly pointing a Nerf gun at her, and writing detailed and impactful resolutions with ridiculous names.",
-            "imgpath": "/assets/eb_pics/HRC/Anita Bhat.png"
-        },
-        "moderator": {
-            "name": "Anusha Bhagla",
-            "desc": "\"The time is always right to do what is right.\" - Martin Luther King Jr.\n\nFrom delivering passionate speeches, to intense lobbying, Anusha Bagla, the moderator for UNHRC is an enthusiastic, hardworking, and ambitious individual. Anusha’s strong passion for MUNs ignited from the very first conference she attended. Since then, she has had an exciting MUN journey across multiple conferences, placing at numerous committees from UNODC’s to UNEP to IPC and much more. Anusha especially has an undying liking for the intense and thrilling atmosphere created when a heated press session goes on in committee, and savours every bit of it. In the world of MUN, she considers coffee as its official drink; and through resilience and determination ensures opinions and ideas of all delegates are taken into account helping build a bridge between diverse perspectives, and ensuring insightful ideas are shared by the end of committee. Anusha is excited to help MUNNERS explore the world of MUNning and make the committee a fun, and positive experience while driving thoughtful discussions, dissecting problems, and encouraging creativity to build innovative solutions. ",
-            "imgpath": "/assets/eb_pics/HRC/Anusha Bhagla.png"
-        },
-        "na": false
-    },
-    {
-        "name": "North Atlantic Treaty Organization (NATO)",
-        "id": "nato",
-        "agenda": "Addressing rising tensions along the Russia-Ukraine border (Freeze date: 23rd February 2022)",
-        "chair": {
-            "name": "Mukul Kumar",
-            "desc": "“Show respect to those in power, don’t follow them blindly” - Christopher Paolini\n\nDespite starting his MUN career later than most in 9th grade, Mukul Kumar has still attended numerous conferences in and around Bangalore. He stands out with a powerful committee presence and an immense knowledge pool in every MUN he attends. His intricate speeches never fail to impress and his contributions to the committee never go unnoticed. Besides being an avid debater, Mukul spends his time playing badminton and reading outdoors.",
-            "imgpath": "/assets/eb_pics/NATO/Mukul Kumar.png"
-        },
-        "vicechair": {
-            "name": "Garvit Shah",
-            "desc": "Garvit Shah, the vice chair for NATO, possesses an indomitable spirit and an exhilarating passion for MUNs. He is a loud and formidable presence in any committee in which he's present and through his thoroughly written directives and love for history, he has excelled in crisis committees. With accolades in conferences such as GWHMUN, TISBMUN, SNISMUN and more, he has developed a tenacious and persistent character. He aims to make this committee engaging and memorable for every delegate.",
-            "imgpath": "/assets/eb_pics/NATO/Garvit Shah.png"
-        },
-        "moderator": {
-            "name": "Ansh Jhunjhunwala",
-            "desc": "\"The most common way people give up their power is by thinking they don't have any.\" - Alice Walker \n\n Ansh Jhunjhunwala from 11th grade will be the Moderator for NATO. He started his MUN journey at ECOSOC at GWHMUN'2022 and  it sparked an undying love for MUNs. From that moment on he attended almost every MUN he could and secured several placements. Aside from MUN, he also takes a keen interest in cricket and basketball, showcasing his enthusiasm for sports. An aspiring entrepreneur, Ansh also dedicates time to nurturing his business acumen.",
-            "imgpath": "/assets/eb_pics/NATO/Ansh Jhunjhunwala.png"
-        },
-        "na": false
-    },
-    {
-        "name": "Disarmament and International Security Council (DISEC)",
-        "id": "disec",
-        "agenda": "Discussing the proliferation of arms in the Middle East with special reference to the involvement of non-state actors",
-        "chair": {
-            "name": "Samhita Madakshira",
-            "desc": "\"Wit is educated insolence\" -Aristotle.\n\n Skilled at delivering convincing speeches and arguments, Samhita has a passionate yet collected committee presence. She is adept at lobbying and thoroughly enjoys the various competitive aspects of MUN. Samhita has the ability to cleverly answer controversial press topics, such as the human rights situation while representing the DPRK. Her extensive knowledge on historical affairs as well as her precise attention to detail has aided her in winning awards in prestigious conferences such as BJCMUN, AMUN and TISBMUN.  Besides her enthusiasm for MUN, Samhita is also a talented basketball player and an avid reader.",
-            "imgpath": "/assets/eb_pics/DISEC/Samhita Madakshira.png"
-        },
-        "vicechair": {
-            "name": "Ashmit Singh",
-            "desc": "\"So I went ahead and bought some uranium-\"\n\n \"-WHAT?`\" ~ NileRed in an interview\n\n Ashmit, more commonly labelled as `Ashley`, is known for being your co-conspirator in blowing up literally everything. A crisis delegate at heart, he’ll make sure to think of creative and detailed ways to destroy whatever you hold dear in committee, whether it may be by poisonous and flammable gas in Moscow, a cash-filled plane in Berlin, or an anthrax nuke barrage across America. With nearly 10 MUNs of placed experience and an expansive view of international politics and legality, he’ll be quite confident to also find something, apart from his apparent (lack of) humour (and lack of height, completing the vertically challenged gang), to question delegates on until their brains melt from his incessant use of “Yeah but source?” He hopes that each delegate has a wonderful time getting rid of the very same weapons in DISEC that he would have used to incinerate you if he was sitting somewhere at the back of the room, quietly scribbling away as a first-timer.",
-            "imgpath": "/assets/eb_pics/DISEC/Ashmit Singh.png"
-        },
-        "moderator": {
-            "name": "Ishani Srinivas",
-            "desc": "Ishani Srinivas is a charismatic 11th grader who recently started MUNning but has a knack for debates and elocution. She may not be known around the Bangalore circuit but she is famous for her band 'Short Circuit' which has amassed almost 2000 followers on Instagram. Not only that but Ishani is also passionate about animals and art.",
-            "imgpath": "/assets/eb_pics/DISEC/Ishani Srinivas.png"
-        },
-        "na": false
-    },
-    {
-        "name": "United Nations Environmental Programme (UNEP)",
-        "id": "unep",
-        "agenda": "Discussing avenues to address marine pollution in South-East Asia",
-        "chair": {
-            "name": "Riana Kapoor",
-            "desc": " \"Even if you are on the right track, you will get run over if you just sit there\" - Will Rodgers. \n\n Riana is fun-loving, enthusiastic, and energetic. She loves MUNNING as much as she loves her morning cup of coffee. Riana has dedicated herself to the MUN circuit, participating in several committees, and honing her skills as an inquisitive and assertive delegate, learning within the Circuit. Her passion for MUNs has led to her participation in various MUNs and her role as an Executive Board member. Riana is excited to chair such young, curious minds and ignite their passion for MUNs, encouraging them to step out of their comfort zones and share their ideas with the world.",
-            "imgpath": "/assets/eb_pics/UNEP/Riana Kapoor.png"
-        },
-        "vicechair": {
-            "name": "Suhani Singh",
-            "desc": "“Diplomats were invented simply to waste time.” - David Lloyd George. \n\n Suhani Singh is a charismatic, and enthusiastic individual, powers given to her by her lack of height, but made up for by her sheer ingenuity. With an experience of over 10 MUNs, placing in nearly every committee she’s ever set foot in, she leads her committees to success while being tactful and making sure everyone has a voice wherever she goes. Suhani is a history lover with a knack for quoting international law at the most entertaining of times. A quirked eyebrow paired with “So you’re saying delegate” is enough to warn any delegate about what's to come and most can say what follows is never pleasant. Known for her passionate speeches and bubbly personality both in and out of formal sessions Suhani hopes to make UNEP a positive environment for all.",
-            "imgpath": "/assets/eb_pics/UNEP/Suhani Singh.png"
-        },
-        "moderator": {
-            "name": "Prishaa Dharmarha",
-            "desc": "\"If you're offered a seat on a rocket ship, don't ask what seat. Just get on\" - Sheryl Sandberg \n\n Prishaa is a hard working, devoted and enthusiastic delegate. She has a passion for world events and an undying love for a powerful speech. She will never pass up the chance to stand on a chair and make her point. She is a valuable asset in negotiations due to her great communication abilities and love of heated arguments. She believes in diplomacy and practical solutions . One thing Prishaa believes in is that there's nothing better to elevate your confidence than a good pair of black heels. The impression made by the click-clack of her heels really says `Anything less than extraordinary is a waste of time`",
-            "imgpath": "/assets/eb_pics/UNEP/Prishaa Dharmarha.png"
-        },
-        "na": false
-    },
-    {
-        "name": "Social, Humanitarian and Cultural Committee (SOCHUM)",
-        "id": "sochum",
-        "agenda": "Addressing the situation pertaining to the use of illegal human labour with special emphasis on Asia-Pacific-based and South Asian Nations",
-        "chair": {
-            "name": "Riti Prabhu",
-            "desc": "“There is an imposter amongus” Julius Caeser to his senators shortly before they all assassinated him \n\n International law is just a weapon; few are more skilled at wielding it than Riti Prabhu. She compensates for her small stature with her commanding presence and her iron grip over committee. She loves taking down the loudest and angriest delegates, once going through a whole MUN consuming nothing but the frail egos of the power delegates she quashed.",
-            "imgpath": "/assets/eb_pics/SOCHUM/Riti Prabhu.png"
-        },
-        "vicechair": {
-            "name": "Ayaan Gupta",
-            "desc": "This long-time debater took the MUN world by storm, managing to uphold a perfect placement record till date. His powerful, yet chaotic speeches never fail to throw the committee upside down, leaving delegates sweating whether they’ll be the next one on the chopping block. But in this event, he plans on broadening his own perspective in this intense and demanding world of international law, by taking part from a completely new standpoint: that of a chair. So if you ever have the chance to talk to him, be nice, because he is probably just as scared as someone starting MUNs for the very first time.",
-            "imgpath": "/assets/eb_pics/SOCHUM/Ayaan Gupta.png"
-        },
-        "moderator": {
-            "name": "Sparsh Bhowmick",
-            "desc": " Sparsh Bhowmick from the 9th grade will be the Moderator for SOCHUM. His MUN journey was off to a rocky start in UNSC at GWHMUN'2022, however just a year later, through resilience and determination, he has managed to place at this very committee at GWHMUN'2023 and at other conferences. Aside from MUN, he also takes a keen interest in international events and enjoys writing about them. He hopes to create a fun and interesting committee for all delegates.",
-            "imgpath": "/assets/eb_pics/SOCHUM/Sparsh Bhowmick.png"
-        },
-        "na": false
+        "na": true
     },
     {
         "name": "Continuous Crisis Committee (CCC)",
         "id": "ccc",
-        "agenda": "Beginning of operation \"Rolling Thunder\" [Freeze date - March 8, 1965]",
+        "agenda": "The Insurgency of Cabo Delgado",
         "chair": {
-            "name": "Rishikesh Madhuvairy",
-            "desc": "From the Cold War to the Arab Spring, Rishikesh Madhuvairy from Greenwood High International School, is quite the global wartime crisis connoisseur. Having started MUNing during the pandemic, his transition to an offline setting had not been easy. However, Rishikesh has made a name for himself in the circuit having won Outstanding Delegate at Harvard MUN India 2022, alongside a few of his other notable accolades as Best Delegate at NPSHMUN, KMUN, and TISBMUN. Rishikesh hopes to fill make his 9th MUN as an EB member, filled with extravagant crisis direction, fierce debate, nail-biting documentation, and a healthy myriad of solutions that may (or may never) endone filled with extravagant crisis direction, fierce debate, nail-biting documentation, and a healthy myriad of solutions that may (or may never) put an end to this historical demonstration of the Vietnam War.",
-            "imgpath": "/assets/eb_pics/CCC/Rishikesh Madhuvairy.png"
+            "name": "",
+            "desc": "",
+            "imgpath": ""
         },
         "vicechair": {
-            "name": "Aarav Kejriwal",
-            "desc":  "'God invented war so that Americans would learn Geography'– Mark Twain. \n\n The first ever directive he wrote was no longer than this very paragraph, but genius knows no bounds. Aarav Kejriwal never fails to propel the committee into chaos with unparalleled precision and meticulously detailed directives. From flying a plane into the Berlin Wall to the glorified assassination of Adolf Hitler (he thinks he’s funny), his directives dominate the crisis update. Wielding an inexplicable urge to be the harbinger of chaos, He receives pleasure watching delegates cower in fear thanks to his ability to find holes within any argument and is always ready to pick apart a delegate for the smallest errors. Most often recognised by his tenacity and speeches which transcend the ordinary, the stunningly good looking vice chair",
-            "imgpath": "/assets/eb_pics/CCC/Aarav Kejriwal.png"
+            "name": "",
+            "desc": "",
+            "imgpath": ""
         },
-        "vicechair2": {
-            "name": "Daksh Aggarwal",
-            "desc": " 'Diplomacy is the art of telling people to go to hell in such a way that they ask for directions.' - Winston Churchill. \n\n Transitioning from experiencing a terrible first MUN - GWHMUN'22 - to achieving the title of Best Delegate at the same conference a year later, he has come a long way. In a crisis committee, he is a force to be reckoned with. From holding a session to kick Russia out of committee, to reviving the Soviet Union (or the “Big Red”, as he likes to call it), his directives are nothing short of amazing (and a little psychotic), and never fail to wreak havoc in committee. His speeches are no different - once a power delegate, he can effortlessly deliver enthralling speeches which shatter the confidence of everyone else in the room. Sometimes suspected of being a communist, your more interesting CCC vice chair",
-            "imgpath": "/assets/eb_pics/CCC/Daksh Aggarwal.png"
+        "moderator": {
+            "name": "",
+            "desc": "",
+            "imgpath": ""
         },
-        "na": false
+        "na": true
+    },
+    {
+        "name": "Disarmament and International Security Council (DISEC)",
+        "id": "disec",
+        "agenda": "Discussing Avenues to Prevent an Arms Race in Outer Space (PAROS)",
+        "chair": {
+            "name": "",
+            "desc": "",
+            "imgpath": ""
+        },
+        "vicechair": {
+            "name": "",
+            "desc": "",
+            "imgpath": ""
+        },
+        "moderator": {
+            "name": "",
+            "desc": "",
+            "imgpath": ""
+        },
+        "na": true
+    },
+    {
+        "name": "United Nations Human Rights Council (UNHRC)",
+        "id": "unhrc",
+        "agenda": "Discussing Human Rights Violations in El-Salvador’s War on Gangs",
+        "chair": {
+            "name": "",
+            "desc": "",
+            "imgpath": ""
+        },
+        "vicechair": {
+            "name": "",
+            "desc": "",
+            "imgpath": ""
+        },
+        "moderator": {
+            "name": "",
+            "desc": "",
+            "imgpath": ""
+        },
+        "na": true
+    },
+    {
+        "name": "North Atlantic Treaty Organization (NATO)",
+        "id": "nato",
+        "agenda": "Developing NATO’s Ninth Strategic Concept in Light of Recent Events",
+        "chair": {
+            "name": "",
+            "desc": "",
+            "imgpath": ""
+        },
+        "vicechair": {
+            "name": "",
+            "desc": "",
+            "imgpath": ""
+        },
+        "moderator": {
+            "name": "",
+            "desc": "",
+            "imgpath": ""
+        },
+        "na": true
     },
     {
         "name": "International Press Corps",
         "id": "ipc",
-        "agenda": "To report on contemporary geopolitics while representing different viewpoints",
+        "agenda": "Protecting Press Freedom in Hostile Environments",
         "chair": {
-            "name": "Aarush Vyas",
-            "desc": "\"The love for all living creatures is the most noble attribute for humankind.\" - Charles Darwin\n\nAarush Vyas, the Head Chair of IPC, began his MUN career in 9th grade after moving to India from the United States. While trying to deal with the shock of having school be genuinely challenging (a major step up from the U.S.), he decided to take part in the school’s MUN delegation (another major step up from the U.S.), gaining invaluable experience. Whether it be leaking overheard crisis arcs to the opposition in exchange for Kur-Kure, or getting China involved with the Balkan war, he’s been shaped by his experience in the circuit. Aarush is excited to share his love for writing, freedom of speech, manipulation of truth, and bending the masses to your will with the delegates of IPC, whether they like it or not.",
-            "imgpath": "/assets/eb_pics/IPC/Aarush Vyas.png"
+            "name": "",
+            "desc": "",
+            "imgpath": ""
         },
         "vicechair": {
-            "name": "Anya Sapru",
-            "desc": "“Force is all conquering, but it's victories that are short lived.” - Abraham Lincoln \n\n  Anya Sapru, the Vice Chairperson of IPC, is an 11th grader who’s always enjoyed speaking and arguing especially about the world around her.  Beginning her MUN career at at Oak JMUN 2019 2019, she immediately began to enjoy everything from the tedious tedious research process to the terrifying press. Apart from MUNning, she spends her time listening to music and   she is an art history nerd who is passionate about music and film.",
-            "imgpath": "/assets/eb_pics/IPC/Anya Sapru.png"
+            "name": "",
+            "desc": "",
+            "imgpath": ""
         },
-        "na": false
+        "moderator": {
+            "name": "",
+            "desc": "",
+            "imgpath": ""
+        },
+        "na": true
+    },
+    {
+        "name": "The Salem Witch Trials (February, 1692)",
+        "id": "salem-witch-trials",
+        "agenda": "Identifying and Eliminating Satan’s Servants",
+        "chair": {
+            "name": "",
+            "desc": "",
+            "imgpath": ""
+        },
+        "vicechair": {
+            "name": "",
+            "desc": "",
+            "imgpath": ""
+        },
+        "moderator": {
+            "name": "",
+            "desc": "",
+            "imgpath": ""
+        },
+        "na": true
+    },
+    {
+        "name": "World Bank",
+        "id": "world-bank",
+        "agenda": "Developing Strategies to Address Trade Fragmentation in Global Markets",
+        "chair": {
+            "name": "",
+            "desc": "",
+            "imgpath": ""
+        },
+        "vicechair": {
+            "name": "",
+            "desc": "",
+            "imgpath": ""
+        },
+        "moderator": {
+            "name": "",
+            "desc": "",
+            "imgpath": ""
+        },
+        "na": true
+    },
+    {
+        "name": "International Court of Justice (ICJ)",
+        "id": "icj",
+        "agenda": "Guatemala's Territorial, Insular and Maritime Claim (Guatemala/Belize)",
+        "chair": {
+            "name": "",
+            "desc": "",
+            "imgpath": ""
+        },
+        "vicechair": {
+            "name": "",
+            "desc": "",
+            "imgpath": ""
+        },
+        "moderator": {
+            "name": "",
+            "desc": "",
+            "imgpath": ""
+        },
+        "na": true
+    },
+    {
+        "name": "Special Political and Decolonization (SPECPOL)",
+        "id": "specpol",
+        "agenda": "Addressing Sahrawi Self Determination in the Western Sahara",
+        "chair": {
+            "name": "",
+            "desc": "",
+            "imgpath": ""
+        },
+        "vicechair": {
+            "name": "",
+            "desc": "",
+            "imgpath": ""
+        },
+        "moderator": {
+            "name": "",
+            "desc": "",
+            "imgpath": ""
+        },
+        "na": true
+    },
+    {
+        "name": "All India Political Parties Meet (AIPPM)",
+        "id": "aippm",
+        "agenda": "Discussing the Abrogation of Article 370",
+        "chair": {
+            "name": "",
+            "desc": "",
+            "imgpath": ""
+        },
+        "vicechair": {
+            "name": "",
+            "desc": "",
+            "imgpath": ""
+        },
+        "moderator": {
+            "name": "",
+            "desc": "",
+            "imgpath": ""
+        },
+        "na": true
+    },
+    {
+        "name": "International Atomic Energies Meet",
+        "id": "iaea",
+        "agenda": "Regulating Innovations in Nuclear Technology and Small Modular Reactors",
+        "chair": {
+            "name": "",
+            "desc": "",
+            "imgpath": ""
+        },
+        "vicechair": {
+            "name": "",
+            "desc": "",
+            "imgpath": ""
+        },
+        "moderator": {
+            "name": "",
+            "desc": "",
+            "imgpath": ""
+        },
+        "na": true
     }
 ]}

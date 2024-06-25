@@ -1,13 +1,12 @@
 <script setup>
-const display = "elapsed" //pending, active, elapsed
+const display = "pending" //pending, active, elapsed
 </script>
 
 <template>
     <main>
         <div v-if="display=='pending'">
             <div class="pending">
-                <h1>Registrations opening on 28th January.</h1>
-                Due to unforeseen circumstances, the registration date has been pushed back. Read <a href="https://docs.google.com/document/d/1HJREGolCF2uzeF8WSqsMbv8kPYXZYY-3NFDP2BHgzgk/edit?usp=sharing" target="_blank">this notice</a> for more information.
+                <h1>Registrations not yet open.</h1>
             </div>
         </div>
         <div v-if="display=='active'" class="active-btn"> 

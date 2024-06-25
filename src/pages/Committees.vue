@@ -14,7 +14,7 @@ useHead({
                 <div class="commlink" :class="'bg-'+item.id">
                     <div class="detail">
                         <img :src="`/assets/committee_logos/${item.id}.png`" class="commlogo">
-                        <h1 class="commname">{{ item.id.toUpperCase() }}</h1>
+                        <h1 class="commname">{{ item.id.split('-').join(' ').toUpperCase() }}</h1>
                         <span class="agenda">
                             Agenda: {{ item.agenda }}
                         </span>    
