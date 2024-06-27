@@ -70,19 +70,19 @@
     </main>
     <div class="embla" ref="emblaNode">
       <div class="embla__container">
-        <div class="embla__slide"><img src="/assets/carousel/File_1.jpg " width="600rem"  height="400rem" ></div>
-        <div class="embla__slide"><img src="/assets/carousel/File_2.jpg " width="600rem"  height="400rem" ></div>
-        <div class="embla__slide"><img src="/assets/carousel/File_3.jpg " width="600rem"  height="400rem" ></div>
-        <div class="embla__slide"><img src="/assets/carousel/File_4.jpg " width="600rem"  height="400rem" ></div>
-        <div class="embla__slide"><img src="/assets/carousel/File_6.jpg " width="600rem"  height="400rem" ></div>
-        <div class="embla__slide"><img src="/assets/carousel/File_7.jpg " width="600rem"  height="400rem" ></div>
-        <div class="embla__slide"><img src="/assets/carousel/File_8.jpg " width="600rem"  height="400rem" ></div>
-        <div class="embla__slide"><img src="/assets/carousel/File_9.jpg " width="600rem"  height="400rem" ></div>
-        <div class="embla__slide"><img src="/assets/carousel/File_10.jpg " width="600rem"  height="400rem" ></div>
-        <div class="embla__slide"><img src="/assets/carousel/File_11.jpg " width="600rem"  height="400rem" ></div>
-        <div class="embla__slide"><img src="/assets/carousel/File_12.jpg " width="600rem"  height="400rem" ></div>
-        <div class="embla__slide"><img src="/assets/carousel/File_13.jpg " width="600rem"  height="400rem" ></div>
-        <div class="embla__slide"><img src="/assets/carousel/File_14.jpg " width="600rem"  height="400rem" ></div>
+        <div class="embla__slide"><img src="/assets/carousel/File_1.webp " width="600rem"  height="400rem" ></div>
+        <div class="embla__slide"><img src="/assets/carousel/File_2.webp " width="600rem"  height="400rem" ></div>
+        <div class="embla__slide"><img src="/assets/carousel/File_3.webp " width="600rem"  height="400rem" ></div>
+        <div class="embla__slide"><img src="/assets/carousel/File_4.webp " width="600rem"  height="400rem" ></div>
+        <div class="embla__slide"><img src="/assets/carousel/File_6.webp " width="600rem"  height="400rem" ></div>
+        <div class="embla__slide"><img src="/assets/carousel/File_7.webp " width="600rem"  height="400rem" ></div>
+        <div class="embla__slide"><img src="/assets/carousel/File_8.webp " width="600rem"  height="400rem" ></div>
+        <div class="embla__slide"><img src="/assets/carousel/File_9.webp " width="600rem"  height="400rem" ></div>
+        <div class="embla__slide"><img src="/assets/carousel/File_10.webp " width="600rem"  height="400rem" ></div>
+        <div class="embla__slide"><img src="/assets/carousel/File_11.webp " width="600rem"  height="400rem" ></div>
+        <div class="embla__slide"><img src="/assets/carousel/File_12.webp " width="600rem"  height="400rem" ></div>
+        <div class="embla__slide"><img src="/assets/carousel/File_13.webp " width="600rem"  height="400rem" ></div>
+        <div class="embla__slide"><img src="/assets/carousel/File_14.webp " width="600rem"  height="400rem" ></div>
       </div>
     </div>
 </template>
@@ -100,7 +100,7 @@ main {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-image: url('/assets/mainimg.png');
+    background-image: url('/assets/mainimg.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

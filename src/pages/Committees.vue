@@ -11,7 +11,7 @@ useHead({
     <main>
         <div v-for="item in comms.list">
             <RouterLink :to="'/committees/'+item.id">
-                <div class="commlink" :class="'bg-'+item.id">
+                <div class="commlink" :style="`background: url('/assets/bg_imgs/${item.id}-img.webp'); background-size: cover;  background-position: center; background-repeat: no-repeat;`">
                     <div class="detail">
                         <img :src="`/assets/committee_logos/${item.id}.png`" class="commlogo">
                         <h1 class="commname">{{ item.id.split('-').join(' ').toUpperCase() }}</h1>
@@ -36,9 +36,6 @@ main {
     border-radius: 25px;
     padding: 10px;
     margin-bottom: 15px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .commlogo {
@@ -98,40 +95,5 @@ a {
 
 path.right-arrow {
     fill: #fff;
-}
-</style>
-
-<style>
-
-.bg-unsc {
-    background: url('/assets/bg_imgs/unsc-img.png');
-}
-
-.bg-unhrc {
-    background: url('/assets/bg_imgs/unhrc-img.png');
-}
-
-.bg-nato {
-    background: url('/assets/bg_imgs/nato-img.png');
-}
-
-.bg-disec {
-    background: url('/assets/bg_imgs/disec-img.png');
-}
-
-.bg-unep {
-    background: url('/assets/bg_imgs/unep-img.png');
-}
-
-.bg-sochum {
-    background: url('/assets/bg_imgs/sochum-img.png');
-}
-
-.bg-ccc {
-    background: url('/assets/bg_imgs/ccc-img.png');
-}
-
-.bg-ipc {
-    background: url('/assets/bg_imgs/ipc-img.png');
 }
 </style>

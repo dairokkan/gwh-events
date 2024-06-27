@@ -35,7 +35,7 @@ useHead({
 
 <template>
     <main>
-        <div class="mainimg" :class="`bg-${props.id}`">
+        <div class="mainimg" :style="`background: url('/assets/bg_imgs/${props.id}-img.webp'); background-size: cover;  background-position: center; background-repeat: no-repeat;`">
             <img :src="`/assets/committee_logos/${props.id}.png`" class="commlogo">
             <h1 class="commname">{{ props.name }}</h1>
             <div class="agenda">Agenda: {{ props.agenda }}</div>
@@ -99,9 +99,6 @@ main {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     align-items: center;
 }
 
