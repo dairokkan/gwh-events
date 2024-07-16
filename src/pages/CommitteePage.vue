@@ -48,7 +48,7 @@ useHead({
                 <svg xmlns="http://www.w3.org/2000/svg" height="45" viewBox="0 -960 960 960" width="45"><path class="right-arrow" d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg>
             </div>
         </div>
-        <!--<h1 class="eb-title">Executive Board</h1>
+        <h1 class="eb-title">Executive Board</h1>
         <div class="eb">
             <div class="mem" v-if="chair!=undefined">
                 <div class="info">
@@ -82,7 +82,7 @@ useHead({
                 </div>
                 <div class="desc">{{ props.moderator!.desc }}</div>
             </div>
-        </div>-->
+        </div>
     </main>
 </template>
 
