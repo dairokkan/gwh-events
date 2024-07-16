@@ -29,7 +29,7 @@ const props = defineProps<{
 }>()
 
 useHead({
-    title: props.id?.split('-').join(' ').toUpperCase() + " | GWH JMUN 2024"
+    title: props.id?.split('-').join(' ').toUpperCase() + " | GWHMUN 2024"
 })
 </script>
 

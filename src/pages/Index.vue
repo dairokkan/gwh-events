@@ -1,10 +1,11 @@
 <script>
   import emblaCarouselVue from 'embla-carousel-vue'
-  import Autoplay from 'embla-carousel-autoplay'
-  
+  import Autoplay from 'embla-carousel-autoplay'  
   
   export default {
-    
+    head: {
+        title: 'GWHMUN 2024'
+    },
     setup() {
        
         const autoplayOptions = {
@@ -14,7 +15,7 @@
 
       const [emblaNode] = emblaCarouselVue({ loop: true }, [Autoplay(autoplayOptions)])
       return { emblaNode }
-    },
+    }
   }
 </script>
 <template>

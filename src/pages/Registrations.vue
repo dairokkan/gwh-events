@@ -1,5 +1,10 @@
 <script setup>
+import { useHead } from '@unhead/vue';
 const display = "pending" //pending, active, elapsed
+
+useHead({
+    title: 'Registrations | GWHMUN 2024'
+})
 </script>
 
 <template>

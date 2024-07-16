@@ -3,7 +3,7 @@ import { useHead } from '@unhead/vue';
 //import * as comms from '../committees.json'
 
 useHead({
-    title: 'Resources | GWH JMUN 2024'
+    title: 'Resources | GWHMUN 2024'
 })
 </script>
 
