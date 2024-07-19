@@ -24,7 +24,7 @@
             <img src="/assets/gwhmun_logo.png" class="commlogo">
             <h1 class="title">GWHMUN 2024</h1>
             <h2 class="subtitle"></h2>
-            <h2 class="subtitle">Dates TBA</h2>
+            <h2 class="subtitle">29-31 August, 2024</h2>
         </div>
         <!--<h1 class="msg-title">Flow of Events</h1>
         <div class="flow">
