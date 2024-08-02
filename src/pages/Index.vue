@@ -21,7 +21,7 @@
 <template>
     <main>
         <div class="mainimg">
-            <img src="/assets/gwhmun_logo.png" class="commlogo">
+            <img src="/assets/gwhmun_logo.webp" class="commlogo">
             <h1 class="title">GWHMUN 2024</h1>
             <h2 class="subtitle"></h2>
             <h2 class="subtitle">29-31 August, 2024</h2>
