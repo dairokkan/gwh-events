@@ -53,7 +53,7 @@
         <h1 class="msg-title">Letter from the Secretary General</h1>
         <div class="msg">
             <div class="info">
-                <img src="/assets/eb_pics/secgen.png">
+                <img src="/assets/eb_pics/secgen.webp">
                 <h2 class="name">Harihar Prasad</h2>
                 <h3 class="tl">Secretary General</h3>
             </div>
@@ -62,7 +62,7 @@
         <h1 class="msg-title">Letter from the Director General</h1>
         <div class="msg">
           <div class="info">
-                <img src="/assets/eb_pics/dirgen.png">
+                <img src="/assets/eb_pics/dirgen.webp">
                 <h2 class="name">Riana Kapoor</h2>
                 <h3 class="tl">Director General</h3>
             </div>
