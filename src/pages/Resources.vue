@@ -9,20 +9,20 @@ useHead({
 
 <template>
     <main>
-        <!--<h1>Delegate Resouces</h1>
+        <h1>Delegate Resouces</h1>
         <div class="bg">
-            <div class="bg-link bg-matrix">
+            <!--<div class="bg-link bg-matrix">
                 <a href="https://docs.google.com/spreadsheets/d/1n-utOOH1Qc8MOjoZpv0b9179K-Juq2IrfAQIN3b9mJ0/edit?usp=sharing">
                     <h1>Country Matrix</h1>
                 </a>
-            </div>
+            </div>-->
             <div class="bg-link bg-code"> 
                 <a href="/resources/code_of_conduct.pdf">
                     <h1>Code of Conduct</h1>
                 </a>
             </div>
         </div>
-        <h1>Background Guides</h1>
+        <!--<h1>Background Guides</h1>
         <div class="bg">
             <div class="bg-link" v-for="item in comms.list" :class="`bg-${item.id}`">
                 <a :href="`/resources/${item.id}_bg.pdf`" v-if="item.na==false">
