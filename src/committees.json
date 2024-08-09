@@ -18,7 +18,7 @@
             "desc": "Aarya is a bold and charismatic delegate, shining in the world of debate. Boasting a near-perfect placement record, she has secured accolades at a range of conferences, including GWHMUN, DEMUN, and TISBMUN. She has an uncanny flair for documentation, always the delegate with the longest annexure, and a keen eye for detail, easily destroying resolutions with a battery of amendments. When not entertaining committee with her fiery speeches, you can find her buried nose-deep in a book.",
             "imgpath": "/assets/eb_pics/unsc-vice2.webp"
         },
-        "na": true
+        "na": false
     },
     {
         "name": "Historical Crisis Committee (HCC)",
@@ -39,7 +39,7 @@
             "desc": "\"War doesn't determine who is right- only who is left\" \n\nThe first ever directive he wrote was no longer than this very paragraph, but genius knows no bounds. Aarav Kejriwal never fails to propel the committee into chaos with unparalleled precision and meticulously detailed directives. From flying a plane into the Berlin Wall to the glorified assassination of Adolf Hitler (he thinks he’s funny), his directives dominate the crisis update. Wielding an inexplicable urge to be the harbinger of chaos, He receives pleasure watching delegates cower in fear thanks to his ability to find holes within any argument and is always ready to pick apart a delegate for the smallest errors. Most often recognized by his tenacity and speeches that transcend the ordinary, presenting your vice chair - Aarav Kejriwal.",
             "imgpath": "/assets/eb_pics/hcc-vice2.webp"
         },
-        "na": true
+        "na": false
     },
     {
         "name": "Disarmament and International Security Council (DISEC)",
@@ -60,7 +60,7 @@
             "desc": "Meet Sunderjit Singh, the enthusiastic chair of the Disarmament and International Security Committee. When he's not deep in discussions about world peace or tackling virtual disarmament challenges, Sunderjit enjoys binge-watching his favorite shows, experimenting in the kitchen (with mixed results), and telling jokes that often only he finds funny.\n\nHis passion for Model UN is matched by his love for exploring new places and trying out quirky restaurants. Attendees can look forward to intense debates, innovative solutions, and plenty of fun under his leadership.",
             "imgpath": "/assets/eb_pics/disec-vice2.webp"
         },
-        "na": true
+        "na": false
     },
     {
         "name": "United Nations Human Rights Council (UNHRC)",
@@ -81,7 +81,7 @@
             "desc": "\"If you're offered a seat on a rocket ship, don't ask what seat. Just get on\" - Sheryl Sandberg\n\nPrishaa is a hard working, devoted and enthusiastic delegate. She has a passion for world events and an undying love for a powerful speech. She will never pass up the chance to stand on a chair and make her point. She is a valuable asset in negotiations due to her great communication abilities and love of heated arguments. She believes in diplomacy and practical solutions . One thing Prishaa believes in is that there's nothing better to elevate your confidence than a good pair of black heels. The impression made by the click-clack of her heels really says \"Anything less than extraordinary is a waste of time\"",
             "imgpath": "/assets/eb_pics/unhrc-vice2.webp"
         },
-        "na": true
+        "na": false
     },
     {
         "name": "North Atlantic Treaty Organization (NATO)",
@@ -102,7 +102,7 @@
             "desc": "Shlok Shetty, With a remarkable tally of placements in well renowned MUN conferences such as DEMUN, TISBMUN, DIPSMUN and BMSMUN, he showcases excellence in the realm of diplomacy and international relations. Shlok's presence radiates confidence, serving as an inspiration to fellow delegates. His steadfast dedication to the MUN circuit is apparent through his consistent leadership qualities that shine in every committee session. Furthermore, his immaculate understanding of global affairs adds a layer of depth to his deliberations, making him a valuable asset in driving meaningful discussions.\n\nPlease welcome your NATO Vice-Chairperson for GWHMUN 2024, Shlok Shetty.",
             "imgpath": "/assets/eb_pics/nato-vice2.webp"
         },
-        "na": true
+        "na": false
     },
     {
         "name": "International Press Corps",
@@ -118,7 +118,7 @@
             "desc": "\"True diplomacy is not merely the art of speaking, but also the skill of listening and understanding.\" - Emily Chambers",
             "imgpath": "/assets/eb_pics/ipc-vice1.webp"
         },
-        "na": true
+        "na": false
     },
     {
         "name": "The Salem Witch Trials (February, 1692)",
@@ -139,7 +139,7 @@
             "desc": "Ayaan is a 9th grade student with a passion for MUNS and has built up quite a dedication to it with a near-perfect placement record in just 6 Muns with 5 placements at prestige conferences such as TISBMUN , DEMUN , AND DNMUN.\n\n He sometimes makes mistakes , stuttering and saying the wrong thing but takes it as a great opportunity to learn and grow better as a delegate and as a person. He uses his great presence to dominate committees and lure others to go his way. Outside MUN you can find him playing football , working out , going on runs and reading .",
             "imgpath": "/assets/eb_pics/swt-vice2.webp"
         },
-        "na": true
+        "na": false
     },
     {
         "name": "World Bank",
@@ -160,7 +160,7 @@
             "desc": "\"Diplomacy is the art of telling people to go to hell in such a way that they ask for directions.\" \n\n- Winston Churchill\n\nTransitioning from experiencing a terrible first MUN - GWHMUN'22 - to achieving the title of Best Delegate at the same conference a year later, he has come a long way. In any committee, he is a force to be reckoned with. From holding a session to kick Russia out of committee, to reviving the Soviet Union, his directives are nothing short of amazing (and a little psychotic), and never fail to wreak havoc in committee. His speeches are no different - he can effortlessly deliver enthralling speeches which shatter the confidence of everyone else in the room.",
             "imgpath": "/assets/eb_pics/worldbank-vice2.webp"
         },
-        "na": true
+        "na": false
     },
     {
         "name": "International Court of Justice (ICJ)",
@@ -176,7 +176,7 @@
             "desc": "\"Unthinking respect for authority is the greatest enemy of truth.\" - Albert Einstein\n\nSparsh Bhowmick will be the Vice Chair for the ICJ. Transitioning from a rocky start in UNSC at GWHMUN'22, Sparsh developed his debate and research skills to secure a placement at the very same committee a year later at GWHMUN'23. His expansive knowledge of current affairs and his diplomatic skills have established him as a formidable delegate. Aside from MUN, he also enjoys writing about current affairs and hopes to create a fun and interesting committee for all delegates.",
             "imgpath": "/assets/eb_pics/icj-vice1.webp"
         },
-        "na": true
+        "na": false
     },
     {
         "name": "Special Political and Decolonization (SPECPOL)",
@@ -197,7 +197,7 @@
             "desc": "Vipran is a passionate and accomplished Model UN delegate and EB member. Having done over 15 MUN conferences, he brings his expertise and accolades of both crisis and general assembly committees to the table. Vipran's journey in the world of Model United Nations began as a passionate student delegate. Armed with a fervour for international relations, diplomacy, and public speaking, Vipran quickly established a reputation for his sharp intellect and persuasive oratory. This dedication led him to participate in MUN conferences across the globe, honing his skills and expanding his knowledge on various global issues. Vipran also has a background in debating and public speaking which provides him with a unique perspective on global issues and international relations. Aside from MUNs, he has a diverse range of interests including Physics, Mathematics, Video Games, and Sports.",
             "imgpath": "/assets/eb_pics/specpol-vice2.webp"
         },
-        "na": true
+        "na": false
     },
     {
         "name": "All India Political Parties Meet (AIPPM)",
@@ -218,7 +218,7 @@
             "desc": "\"Thought is free.\" - Shakespeare\n\nA charismatic, and enthusiastic individual, Suhani makes up for her lack of height by her sheer ingenuity. Having placed in nearly every committee she’s ever set foot in, she leads her committees to success while being tactful and making sure everyone has a voice. Suhani is a history nerd and a literature lover with a very clear argumentative streak. Known for her bright smile and bubbly personality both in and out of formal session, she is sure to baffle any delegate with a myriad of questions the moment they give her the opportunity. Presenting your vice chair, of AIPPM Suhani Singh.",
             "imgpath": "/assets/eb_pics/aippm-vice2.webp"
         },
-        "na": true
+        "na": false
     },
     {
         "name": "International Atomic Energies Meet",
@@ -239,6 +239,6 @@
             "desc": "\"Whenever I’m about to do something, I think, ‘Would an idiot do that?’ And if they would, I do not do that thing.\" - Dwight K. Schrute \n\nFamed for her intensity and relentless lobbying, Anita is a delegate who rarely fails to manifest chaos in committee by expounding loopholes in international law amidst exuberant speeches. In addition to her myriad of placements in the Bangalore MUN circuit, you'd catch her playing guitar (when she's supposed to be studying) and binging sitcoms.",
             "imgpath": "/assets/eb_pics/iaea-vice2.webp"
         },
-        "na": true
+        "na": false
     }
 ]}

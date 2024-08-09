@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useHead } from '@unhead/vue';
-//import * as comms from '../committees.json'
+import * as comms from '../committees.json'
 
 useHead({
     title: 'Resources | GWHMUN 2024'
@@ -22,19 +22,18 @@ useHead({
                 </a>
             </div>
         </div>
-        <!--<h1>Background Guides</h1>
+        <h1>Background Guides</h1>
         <div class="bg">
-            <div class="bg-link" v-for="item in comms.list" :class="`bg-${item.id}`">
+            <div class="bg-link" v-for="item in comms.list" :style="`background: url('/assets/bg_imgs/${item.id}-img.webp'); background-size: cover;  background-position: center; background-repeat: no-repeat;`">
                 <a :href="`/resources/${item.id}_bg.pdf`" v-if="item.na==false">
-                    <h1>{{ item.id.toUpperCase() }}</h1>
+                    <h1>{{ item.id.split('-').join(' ').toUpperCase()  }}</h1>
                     <svg xmlns="http://www.w3.org/2000/svg" height="45" viewBox="0 -960 960 960" width="45"><path class="right-arrow" d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg>
                 </a>
                 <div v-else class="invalid">
                     <h1>{{ item.id.toUpperCase() }} (TBD)</h1>
                 </div>
             </div>
-        </div>-->
-        
+        </div>
     </main>
 </template>
 
