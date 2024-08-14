@@ -11,11 +11,11 @@ useHead({
     <main>
         <h1>Delegate Resouces</h1>
         <div class="bg">
-            <!--<div class="bg-link bg-matrix">
-                <a href="https://docs.google.com/spreadsheets/d/1n-utOOH1Qc8MOjoZpv0b9179K-Juq2IrfAQIN3b9mJ0/edit?usp=sharing">
+            <div class="bg-link bg-matrix">
+                <a href="https://docs.google.com/spreadsheets/d/1uPZzaUlwv7e34m38-BC1MXtwAQbrQtd-oOB3NRl8CmA/edit?usp=sharing">
                     <h1>Country Matrix</h1>
                 </a>
-            </div>-->
+            </div>
             <div class="bg-link bg-code"> 
                 <a href="/resources/code_of_conduct.pdf">
                     <h1>Code of Conduct</h1>
