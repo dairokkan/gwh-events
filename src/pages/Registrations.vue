@@ -15,12 +15,16 @@ useHead({
             </div>
         </div>
         <div v-if="display=='active'" class="active-btn"> 
+            <a href="https://forms.gle/bR54xCRTpyvGS5w38" target="_blank" class="reglink">
+                <h2>Individual Registrations</h2>
+                <svg xmlns="http://www.w3.org/2000/svg" height="45" viewBox="0 -960 960 960" width="45"><path class="right-arrow" d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg>
+            </a>
             <a href="https://forms.gle/Gh3uKRvYpeR2kgDZ8" target="_blank" class="reglink">
                 <h2>Delegation Registrations</h2>
-                Registrations will close once requisite numbers are reached, so register quickly!
                 <svg xmlns="http://www.w3.org/2000/svg" height="45" viewBox="0 -960 960 960" width="45"><path class="right-arrow" d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg>
             </a>
             <div class="reg-note">
+                <div><h2>Registrations will close once requisite numbers are reached, so register quickly!</h2></div>
                 <div><h2>Requirements for Delegation Registrations:</h2></div>
                 <div>1. The delegation needs to be associated with a school.</div>
                 <div>2. There needs to be a minimum of 3 delegates and a maximum of 20 delegates </div>
@@ -54,6 +58,8 @@ a.reglink {
     border: 2px solid #3b3b3b;
     border-radius: 25px;
     padding: 60px;
+    margin: 30px;
+    width: 50%;
     text-decoration: none;
     color: #fff;
     font-size: 1.25em;
