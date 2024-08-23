@@ -26,30 +26,43 @@
             <h2 class="subtitle"></h2>
             <h2 class="subtitle">29-31 August, 2024</h2>
         </div>
-        <!--<h1 class="msg-title">Flow of Events</h1>
+        <h1 class="msg-title">Flow of Events</h1>
         <div class="flow">
             <div class="day">
                 <h1>Day 1</h1>
-                <p>Reporting time to school: 7:45 AM</p>
-                <p>Registrations: 8:00 - 9:00 AM</p>
-                <p>Opening Ceremony: 9:00 - 10:00 AM</p>
-                <p>Juice Break: 10:00 - 10:15 AM</p>
-                <p>Committee Session 1: 10:15 AM - 12:20 PM</p>
-                <p>Lunch: 12:20 - 12:55 PM</p>
-                <p>Committee Session 2: 12:55 PM - 2:00 PM</p>
-                <p>Disperal: 2:05 PM</p>
+                <p>Registrations: 7:30 to 8:30 </p>
+                <p>Opening ceremony: 8:30 to 9:30  </p>
+                <p>Break: 9:30 to 10:00 </p>
+                <p>Committee session 1: 10:00 - 1:30</p>
+                <p>Lunch 1: 1:00 to 1:30 </p>
+                <p>Lunch 2: 1:30 to 2:00 </p>
+                <p>Committee session 2: 1:30 to 3:45 </p>
+                <p>Dispersal: 3:45 to 4:15</p>
+
             </div>
             <div class="day">
                 <h1>Day 2</h1>
-                <p>Reporting time to school (at the respective committee rooms): 7:45 AM</p>
-                <p>Committee Session 3: 8:00 - 10:00 AM</p>
-                <p>Juice Break: 10:00 - 10:15 AM</p>
-                <p>Committee Session 4: 10:15 AM - 12:20 PM</p>
-                <p>Lunch: 12:20 - 12:55 PM</p>
-                <p>Closing Ceremony: 1:00 - 2:00 PM</p>
-                <p>Dispersal: 2:05 PM</p>
+                <p>Bag checks: 7:30 to 8:30 </p>
+                <p>Committee session 3: 8:30 to 10:00 </p>
+                <p>Break: 10:00 - 10:30 </p>
+                <p>Committee Session 4: 10:30 to 1:30 </p>
+                <p>Lunch 1: 1:00 to 1:30 </p>
+                <p>Lunch 2: 1:30 to 2:00 </p>
+                <p>Committee session 5: 1:30 to 4:00 </p>
+                <p>Break: 4:00 to 4:30 </p>
+                <p>Socials: 4:30 to 7:00 </p>
+                <p>Dispersal: 7:00 to 7:15 </p>
             </div>
-        </div>-->
+            <div class="day">
+                <h1>Day 3</h1>
+                <p>Bag Check: 7:30 to 8:30 </p>
+                <p>Committee session 6: 8:30 to 10:45</p>
+                <p>Transit to Closing Ceremony: 10:45 to 11:00 </p>
+                <p>Closing ceremony: 11:00 to 12:00 </p>
+                <p>Lunch: 12:00 to 1:00</p>
+                <p>Dispersal: 1:00 to 1:15</p>
+            </div>
+        </div>
         <h1 class="msg-title">Letter from the Secretary General</h1>
         <div class="msg">
             <div class="info">
@@ -219,13 +232,14 @@ h1.msg-title {
 .day {
     border: 1px solid #363636;
     border-radius: 20px;
-    padding: 50px 15px;
+    padding: 30px 15px;
     text-align: center;
     width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 50px
 }
 
 .day p {
