@@ -9,6 +9,7 @@ useHead({
 
 <template>
     <main>
+        <center><h1>Please note that position papers are NOT required for any committee at GWHMUN 2024.</h1></center>
         <div v-for="item in comms.list">
             <RouterLink :to="'/committees/'+item.id">
                 <div class="commlink" :style="`background: url('/assets/bg_imgs/${item.id}-img.webp'); background-size: cover;  background-position: center; background-repeat: no-repeat;`">
